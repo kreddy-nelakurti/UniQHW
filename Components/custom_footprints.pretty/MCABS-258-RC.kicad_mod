@@ -1,0 +1,106 @@
+(footprint "MCABS-258-RC"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c280f23a-7051-4deb-b5fd-b65e8546feb4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "MCABS-258-RC"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f2bda52d-2bef-4190-9f0c-224c1c82e081")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e4ad8452-c6d5-4bb4-8507-5965b3017511")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6c7568b9-049b-4f2b-88b4-71e650694658")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -6.25 -3)
+		(end 6.27 3.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "f52c5cf4-a66b-4d5d-8f45-5570226101d6")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b8cd51a7-d815-41e1-9183-8a3c0202afef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "+" smd rect
+		(at -5.14 1.66)
+		(size 2.02 3.28)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "c7aebf76-1384-43a2-94d9-40ed1733982f")
+	)
+	(pad "-" smd rect
+		(at 5.14 1.66)
+		(size 2.02 3.28)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "0b8d5f17-bdc0-4ab1-874d-4523b8b7f9c1")
+	)
+	(embedded_fonts no)
+	(model "${USR_SYMBOL_DIR}/custom_footprints_3d/MCABS-258-RC.step"
+		(offset
+			(xyz -6 3 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

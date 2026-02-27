@@ -34,7 +34,3 @@ fp-info-cache
 *.zip
 *.ipc
 production/
-
-#components - Hide for now until attribution
-Components/
-*.step

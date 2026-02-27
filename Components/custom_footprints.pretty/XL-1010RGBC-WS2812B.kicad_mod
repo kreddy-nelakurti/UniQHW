@@ -1,0 +1,131 @@
+(footprint "XL-1010RGBC-WS2812B"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.21 -2.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e9a99a94-a5b4-49dd-ab3a-f3fb7cecc7f8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "XL-1010RGBC-WS2812B"
+		(at 0.3 2.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "92db9332-cd56-4ec0-8eda-7d38cc7da5e4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5d79e6eb-9da0-47cc-8054-61d082e683a5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5a443b3b-782a-4965-80cd-58777e69cc97")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -0.81 -0.58)
+		(end -0.76 -0.58)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "e59e8fc3-807c-4139-ab2b-b09a16f088df")
+	)
+	(fp_rect
+		(start -0.5 -0.5)
+		(end 0.5 0.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "dd820015-bdb1-4df6-a54c-8d57ccefd430")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4c8285bb-2223-4e93-8760-1d20de2a5907")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.4 -0.45 90)
+		(size 0.45 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "a9cf4bd0-7700-4c45-b0e2-b1b60e683e5e")
+	)
+	(pad "2" smd rect
+		(at 0.45 -0.45 90)
+		(size 0.45 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "a260498c-f8dc-4c44-9cb0-261fd12794ef")
+	)
+	(pad "3" smd rect
+		(at -0.4 0.4 90)
+		(size 0.45 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "f4702500-9f07-4d4b-886e-7dd847f7299d")
+	)
+	(pad "4" smd rect
+		(at 0.45 0.4 90)
+		(size 0.45 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "7f7372fd-b3c2-4869-9b9d-1d31ae0f9ed3")
+	)
+	(embedded_fonts no)
+	(model "${USR_SYMBOL_DIR}/custom_footprints_3d/XL-1010RGBC-WS2812B.step"
+		(offset
+			(xyz 12 5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

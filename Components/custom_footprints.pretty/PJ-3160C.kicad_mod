@@ -1,0 +1,80 @@
+(footprint "PJ-3160C"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -3.4 -24.59 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7b71789a-7b35-40e1-810e-b973c1d72989")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "PJ-3160C"
+		(at -3.4 -23.09 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ef862db1-3f0b-42b6-81d1-2a823eb5fc91")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9ca0ec07-7648-48c8-82b7-be9ef4c37bb8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aa6da71c-09d1-4436-9c2f-180830eb628b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 10.67 3.45)
+		(end 10.67 -8.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9b7c599e-8abe-4736-afd0-c31fff5e1ae0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -3.4 -21.59 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "de9fd040-4997-476c-a021-de89fdc07d59")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
