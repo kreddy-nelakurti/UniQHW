@@ -18,7 +18,7 @@ The Corresponding software component can be found [https://github.com/Benksur/Un
 | **Caiyan Jin** | UI/UX Design |
 </div>
 
-Any Questions about the PCB and Schematics please direct them to [james.brian.wood@gmail.com](james.brian.wood@gmail.com)
+Any Questions about the PCB and Schematics please direct them to [james.brian.wood@gmail.com](james.brian.wood@outlook.com)
 
 ## Production
 
