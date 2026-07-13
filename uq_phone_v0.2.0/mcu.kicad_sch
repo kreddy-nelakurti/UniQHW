@@ -7823,6 +7823,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 420.37 133.858)
+		(end 492.76 140.97)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 398823b7-a828-4c85-883a-c441517aadeb)
+	)
 	(text "UQ Phone"
 		(exclude_from_sim no)
 		(at 316.992 259.08 0)
@@ -7835,6 +7847,16 @@
 			)
 		)
 		(uuid "7dc5fb06-7407-49f5-aaa7-042a836fa1ae")
+	)
+	(text "uSD_SIM_CD from sim/sd card tray to detect insertion - pb11\n*100ms debounce delay*\nSD_PWR_EN control output to the load switch ON pin - pb10\n\n"
+		(exclude_from_sim no)
+		(at 453.39 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "836c7039-68e2-4b71-b4be-e7a80c081211")
 	)
 	(text_box "Programmer"
 		(exclude_from_sim no)
@@ -8349,10 +8371,6 @@
 		(uuid "352bdf53-44ed-48e8-a088-160504974dee")
 	)
 	(no_connect
-		(at 353.06 135.89)
-		(uuid "4d6ee14f-567d-46ff-8704-cd3052b746b1")
-	)
-	(no_connect
 		(at 292.1 85.09)
 		(uuid "4fba0834-f9b6-416e-acf3-b550355b4ae9")
 	)
@@ -8387,10 +8405,6 @@
 	(no_connect
 		(at 353.06 161.29)
 		(uuid "b6a39ae0-d6c1-470c-9b93-534e8db0546b")
-	)
-	(no_connect
-		(at 353.06 138.43)
-		(uuid "b8ba2534-eebd-43e4-b0fb-b8b175b3b0b8")
 	)
 	(no_connect
 		(at 353.06 166.37)
@@ -8465,6 +8479,16 @@
 			(type default)
 		)
 		(uuid "04538583-46da-472a-bb73-1c52df54ef60")
+	)
+	(wire
+		(pts
+			(xy 353.06 135.89) (xy 358.14 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04cf5a2c-3ed8-43e2-b52a-df0ec86d3427")
 	)
 	(wire
 		(pts
@@ -10618,6 +10642,16 @@
 	)
 	(wire
 		(pts
+			(xy 353.06 138.43) (xy 356.87 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b47125d1-53d1-4862-9b83-9ce3f62d77d2")
+	)
+	(wire
+		(pts
 			(xy 137.16 185.42) (xy 167.64 185.42)
 		)
 		(stroke
@@ -11782,6 +11816,29 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "uSD_SIM_CD"
+		(shape input)
+		(at 356.87 138.43 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 255 1)
+			)
+			(justify left)
+		)
+		(uuid "0cb24798-3ff9-4db1-95d2-3bbbac963f26")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 371.2246 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -13515,6 +13572,29 @@
 		(uuid "a10f6e28-8c0d-4d4c-a5e5-339060a3e4d8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 368.987 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD_PWR_EN"
+		(shape output)
+		(at 358.14 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 255 1)
+			)
+			(justify left)
+		)
+		(uuid "a37d53fb-619e-4322-ae41-f5ac8cfe2305")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 372.0108 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
