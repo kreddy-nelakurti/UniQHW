@@ -4359,6 +4359,102 @@
 		)
 		(uuid "1989882a-ac80-4caf-9cb3-f7b9bc73b275")
 	)
+	(text_box "a quad SPDT analogue switch used to route digital audio signals between the MCU and the RC7620 modem. AUD_SW_L selects which audio path is connected, while R28 (100 kΩ) and R33 (10 kΩ) provide a defined logic state during startup so the switch powers up in a known configuration. C38 (100 nF) locally decouples the 1.8 V supply. Using an analogue switch allows the phone to dynamically change audio routing without rewiring or additional connectors."
+		(exclude_from_sim no)
+		(at 278.13 3.81 0)
+		(size 76.2 13.97)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.635)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 0.2)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "3f59fce5-1076-41ce-930b-db9a09ff165b")
+	)
+	(text_box "the phone's loudspeaker used for calls, notifications and media playback. It is driven directly from the audio codec's differential SPEAKER_P and SPEAKER_N outputs, eliminating the need for large DC-blocking capacitors while improving audio power and efficiency. The selected speaker is 8 Ω, 0.25 W, making it suitable for low-power portable applications."
+		(exclude_from_sim no)
+		(at 36.83 3.81 0)
+		(size 76.2 13.97)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.635)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 0.2)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "540a3b0a-5802-42b4-b2ea-942a0be48027")
+	)
+	(text_box "an electret microphone used for voice calls and audio recording. MIC_BIAS provides the DC operating voltage required by the microphone, while C36 (4.7 µF) AC-couples the audio signal onto MIC_OUT, removing the DC bias before it enters the codec. C37 (1 µF) filters the microphone ground/reference to reduce supply noise. The codec amplifies and digitises this analogue signal before sending it to the modem."
+		(exclude_from_sim no)
+		(at 138.43 3.81 0)
+		(size 76.2 13.97)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.635)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 0.2)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "5f82af46-8380-45b1-8cfb-06e1be3138af")
+	)
+	(text_box "provides stereo headphone output and microphone input through a standard 3.5 mm TRRS connector. D8-D11 are ESD protection diodes that protect the exposed audio pins against electrostatic discharge. R21 (2.2 kΩ) biases the headset microphone, while C21, C41 and C45 provide AC coupling and filtering for the microphone and left/right audio channels. HP_LEFT, HP_RIGHT and HP_MIC connect directly to the codec, allowing both headphone playback and headset voice input."
+		(exclude_from_sim no)
+		(at 107.95 204.47 0)
+		(size 76.2 13.97)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.635)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 0.2)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "6152cb81-d79e-4eff-8a17-2630bc7d2af5")
+	)
 	(text_box "Headphone Jack"
 		(exclude_from_sim no)
 		(at 26.67 109.22 0)
@@ -4380,6 +4476,30 @@
 			(justify bottom)
 		)
 		(uuid "63061a28-6cf4-40c8-b500-fde9fab30651")
+	)
+	(text_box "dedicated headset detection IC that monitors the 3.5 mm audio jack and generates a digital HP_DET signal for the MCU whenever a headset is inserted or removed. This allows the firmware to automatically switch between the loudspeaker and headphones without requiring user intervention. The detector monitors the mechanical switch contacts inside the audio jack and converts them into a clean logic signal that the MCU can reliably read."
+		(exclude_from_sim no)
+		(at 26.67 262.89 0)
+		(size 69.85 13.97)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.635)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 0.2)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "81f6e9a2-6dcd-4c0b-a279-af3d893cf954")
 	)
 	(text_box "Codec\n"
 		(exclude_from_sim no)
@@ -4424,6 +4544,30 @@
 			(justify bottom)
 		)
 		(uuid "9a1ee834-3afc-42dd-9ebf-39c85b6e2557")
+	)
+	(text_box "he central audio processor of the phone, converting between digital audio and analogue audio. It receives digital audio from the MCU/modem over the I²S interface (AUD_SYNC, AUD_BCLK, AUD_IN, AUD_OUT) and converts it into analogue signals for the speaker and headphones. Conversely, it digitises microphone audio and sends it back over I²S. The numerous capacitors (C39-C46) provide local decoupling, bias filtering and analogue reference stability, while OSC1 supplies the master clock required for accurate audio sampling. The codec communicates with the MCU over I²C (AUD_SCL/AUD_SDA) for configuration, allowing software control of gain, routing, volume and audio modes."
+		(exclude_from_sim no)
+		(at 205.74 250.19 0)
+		(size 76.2 21.59)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.635)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 0.2)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "ab6c181b-5e3c-4d57-b0be-29e00cd77610")
 	)
 	(text_box "Audio Switch\n\n"
 		(exclude_from_sim no)

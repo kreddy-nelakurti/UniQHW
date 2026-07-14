@@ -12758,6 +12758,30 @@
 		)
 		(uuid "a59b4911-28e2-4095-82a3-24caec7496bd")
 	)
+	(text_box "the cellular modem that provides LTE connectivity, voice calling, SMS, GNSS positioning and SIM card communication. The STM32 acts as the system controller, while the RC7620 handles all cellular networking and radio processing. Communication between the MCU and modem is primarily through UART (AT commands), I²S (digital audio), and dedicated GPIO control signals for power, reset and wake functions. The module is supplied directly from VBAT, requiring a large bank of decoupling capacitors to support the high peak currents drawn during cellular transmission."
+		(exclude_from_sim no)
+		(at 179.07 -19.05 0)
+		(size 81.28 16.51)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.635)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 0.2)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "3fe3ed86-8256-4472-8498-3121d331ad64")
+	)
 	(text_box "Antenna Connectors\n"
 		(exclude_from_sim no)
 		(at 133.35 175.26 0)
@@ -12779,6 +12803,54 @@
 			(justify bottom)
 		)
 		(uuid "907d681d-7fe9-4df5-b592-523bf37bc0b7")
+	)
+	(text_box "board-to-board connectors linking the main logic PCB to the dedicated modem PCB. They carry UART, audio, SIM, control signals, power rails and ground between the two boards, allowing the modem to be implemented as a separate replaceable module while simplifying PCB layout."
+		(exclude_from_sim no)
+		(at 134.62 259.08 0)
+		(size 81.28 11.43)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.635)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 0.2)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "991855f6-4718-421a-8453-a1a8d1903a21")
+	)
+	(text_box "miniature RF connectors providing interfaces for the main LTE antenna, auxiliary diversity antenna, and GNSS antenna. These connectors carry high-frequency RF signals between the RC7620 and the external antennas while maintaining controlled impedance. Proper PCB layout around these connectors is essential to minimise signal loss and maximise wireless performance."
+		(exclude_from_sim no)
+		(at 228.6 199.39 0)
+		(size 81.28 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.635)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 0.2)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "b5927663-b893-405a-be7e-e16d95dc5c30")
 	)
 	(text_box "Mobile Module\n"
 		(exclude_from_sim no)

@@ -5397,7 +5397,7 @@
 	)
 	(text "Need to add soft power switch "
 		(exclude_from_sim no)
-		(at 331.978 221.996 0)
+		(at 229.362 226.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5460,8 +5460,8 @@
 	)
 	(text_box "Battery\n"
 		(exclude_from_sim no)
-		(at 190.5 208.28 0)
-		(size 110.49 35.56)
+		(at 307.34 29.21 0)
+		(size 62.23 35.56)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -5479,6 +5479,54 @@
 			(justify bottom)
 		)
 		(uuid "08738e38-a127-4de6-a81b-f3b6868f185c")
+	)
+	(text_box "tracks battery state-of-charge using a Coulomb counter plus voltage sensing across a 10mΩ sense resistor. This is what gives you an actual battery percentage rather than just \"charging / not charging.\""
+		(exclude_from_sim no)
+		(at 231.14 204.47 0)
+		(size 55.88 11.43)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.635)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 0.2)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "12f93f4b-e2ea-4dee-b2fd-9b60bc86633c")
+	)
+	(text_box "Purpose\n• Switches display power rail\n• Controlled by MCU\n• Eliminates display leakage current"
+		(exclude_from_sim no)
+		(at 307.34 204.47 0)
+		(size 27.94 11.43)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.635)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 0.2)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "1a2cac8b-c6f1-4bc5-be2f-daf64368334c")
 	)
 	(text_box "Battery Manager\n"
 		(exclude_from_sim no)
@@ -5524,6 +5572,78 @@
 		)
 		(uuid "29a13fe4-fe89-46c7-a5c0-18c2988ed9f2")
 	)
+	(text_box "steps the battery voltage down to a regulated +3.3V rail. This is the main supply feeding the MCU, display, sensors, and most of the digital side of the phone. The inductor (L1) and caps (C1/C2) around it are standard support parts for a switching regulator - they smooth the output and are sized for the converter's switching frequency."
+		(exclude_from_sim no)
+		(at 232.41 13.97 0)
+		(size 55.88 13.97)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.635)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 0.2)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "2f882052-9479-42e9-8a9b-5cb3731a1d3e")
+	)
+	(text_box "the Li-ion charge controller. Manages charging current/termination (set here to ~0.45A charge, 10mA termination via the PROG resistors), does load-sharing so the phone can run on USB while charging, and monitors a thermistor (BAT_THERM) to stop charging if the pack overheats."
+		(exclude_from_sim no)
+		(at 30.48 246.38 0)
+		(size 55.88 13.97)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.635)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 0.2)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "52b8d86a-bb4f-4648-840a-bbefc43d82c1")
+	)
+	(text_box "USB-C Connector\n• External power input (VBUS)\n• USB 2.0 data interface\n• Supplies VUSB to battery manager\n• CC resistors configure USB2.0 device mode"
+		(exclude_from_sim no)
+		(at 90.17 16.51 0)
+		(size 55.88 11.43)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.635)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 0.2)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "5d7f36d0-18f0-46db-a4ae-25dd79e9201d")
+	)
 	(text_box "USB C Port"
 		(exclude_from_sim no)
 		(at 30.48 29.21 0)
@@ -5545,6 +5665,30 @@
 			(justify bottom)
 		)
 		(uuid "70ef9115-851c-4594-af93-fdb77781593b")
+	)
+	(text_box "Purpose\n• Converts MCP_OUT to 3.3 V\n• Powers MCU and peripherals\n• High-efficiency buck regulator"
+		(exclude_from_sim no)
+		(at 190.5 16.51 0)
+		(size 29.21 11.43)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.635)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 0.2)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "7d69635a-85eb-4bb3-a2c6-907364e91cda")
 	)
 	(text_box "Fuel Gauge\n"
 		(exclude_from_sim no)
@@ -5568,6 +5712,30 @@
 		)
 		(uuid "931a9de0-39c9-4e90-8fc1-28eac3644554")
 	)
+	(text_box "Purpose\n• Measures battery state-of-charge (SoC)\n• Reports battery voltage and health\n• Communicates with the MCU via I²C"
+		(exclude_from_sim no)
+		(at 190.5 204.47 0)
+		(size 35.56 11.43)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.635)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 0.2)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "a80fe58d-84d0-4bc7-b5d1-9a7c4608cc61")
+	)
 	(text_box "Test Points\n"
 		(exclude_from_sim no)
 		(at 307.34 84.1065 0)
@@ -5589,6 +5757,78 @@
 			(justify bottom)
 		)
 		(uuid "ae138347-8652-4730-8cac-3f5e620048f4")
+	)
+	(text_box "the physical USB-C connector. Wired only for power right now (charging), not data. A handful of ESD diodes (D4-D7) sit on the power/CC lines to absorb static discharge from the exposed port; D1/D3 are the data-line ESD diodes but aren't populated yet since USB data isn't wired up."
+		(exclude_from_sim no)
+		(at 30.48 16.51 0)
+		(size 55.88 11.43)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.635)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 0.2)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "cd6a80e2-7230-44c1-a14e-33f387f95962")
+	)
+	(text_box " same part family i use for the SIM/SD fix and the soft-power circuit. Here it gates +3.3V → +3.3V_SW, and per J.Wood thesis this is specifically what fully kills power to the display backlight and keypad LEDs, since the earlier board revision couldn't turn them off completely otherwise."
+		(exclude_from_sim no)
+		(at 341.63 204.47 0)
+		(size 48.26 13.97)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.635)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 0.2)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "d2c60bbf-ebee-4b16-a5d3-79077cebcdcc")
+	)
+	(text_box "Purpose\n• Charges Li-ion battery\n• Selects USB/Battery power\n• Generates MCP_OUT system supply"
+		(exclude_from_sim no)
+		(at 114.3 246.38 0)
+		(size 55.88 11.43)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.635)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 0.2)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "e425764c-a3ca-4465-8cd0-5cce04161689")
 	)
 	(text_box "Voltate Regulation\n"
 		(exclude_from_sim no)
@@ -5955,6 +6195,17 @@
 			(type default)
 		)
 		(uuid "0a9078df-e182-47f3-9d49-7579d04ed947")
+	)
+	(polyline
+		(pts
+			(xy 204.47 68.58) (xy 166.37 162.56)
+		)
+		(stroke
+			(width 0.635)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "0bd813d1-9260-402c-aa7a-2b96864b966a")
 	)
 	(wire
 		(pts
@@ -13152,7 +13403,7 @@
 	)
 	(symbol
 		(lib_id "Misc:Battery")
-		(at 245.11 223.52 0)
+		(at 339.09 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13161,7 +13412,7 @@
 		(fields_autoplaced yes)
 		(uuid "b4df36d4-dd79-4425-990c-07d89aad4bda")
 		(property "Reference" "B1"
-			(at 250.19 222.2499 0)
+			(at 344.17 44.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13170,7 +13421,7 @@
 			)
 		)
 		(property "Value" "414360"
-			(at 250.19 224.7899 0)
+			(at 344.17 46.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13179,7 +13430,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 245.11 223.52 0)
+			(at 339.09 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13188,7 +13439,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 223.52 0)
+			(at 339.09 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13197,7 +13448,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 245.11 223.52 0)
+			(at 339.09 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13206,7 +13457,7 @@
 			)
 		)
 		(property "DESCRIPTION" ""
-			(at 245.11 223.52 0)
+			(at 339.09 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13215,7 +13466,7 @@
 			)
 		)
 		(property "LSCS PN" ""
-			(at 245.11 223.52 0)
+			(at 339.09 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)

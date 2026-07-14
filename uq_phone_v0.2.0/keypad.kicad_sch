@@ -1040,6 +1040,30 @@
 		)
 		(uuid "3b2054c8-5da7-494e-9520-f3beb1789321")
 	)
+	(text_box "Operation\n• The MCU sends serial LED_DATA to the first LED.\n• Each LED stores its own colour before forwarding the remaining data.\n• All LEDs can be independently controlled using a single MCU GPIO."
+		(exclude_from_sim no)
+		(at 297.18 59.69 0)
+		(size 76.2 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.635)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 0.2)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "45e4fb4f-74e8-4795-80a6-30d3658c8eed")
+	)
 	(text_box "LEDs\n"
 		(exclude_from_sim no)
 		(at 142.24 16.51 0)
@@ -1061,6 +1085,198 @@
 			(justify bottom)
 		)
 		(uuid "4ec27933-5a5a-4686-9e4d-9f4988c79b51")
+	)
+	(text_box "individually addressable RGB LEDs used for keypad illumination, status indication and visual effects. Each LED contains an integrated controller, allowing all LEDs to be connected in a single serial chain using LED_DATA. R42 (330 Ω) reduces ringing and protects the data line during fast switching, while VLED (+3.3V_SW) powers the LED chain through James' display load switch so the entire keypad lighting can be completely disabled to minimise standby power. Each LED receives serial colour data, updates its own colour, then forwards the remaining data to the next LED in the chain"
+		(exclude_from_sim no)
+		(at 297.18 17.78 0)
+		(size 76.2 17.78)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.635)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 0.2)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "6160e938-611a-470b-bb8a-dc08db465c24")
+	)
+	(text_box "Revision Note\n• Currently connected as a standard GPIO input.\n• Future revisions may integrate this button into a hardware soft-power circuit for controlled startup and shutdown."
+		(exclude_from_sim no)
+		(at 87.63 223.52 0)
+		(size 40.64 15.24)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.635)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 0.2)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "8d711c82-5f6c-4c8e-a61f-fae4accfb333")
+	)
+	(text_box "provide the standard 12-key telephone keypad used for dialling numbers, text entry and menu interaction. Each key is implemented using two tactile switches connected in parallel, improving reliability and providing a larger actuation area. Each button connects a dedicated STM32 GPIO directly to ground when pressed, allowing the MCU to detect key presses using its internal pull-up resistors. Unlike a conventional keyboard matrix, every key has its own GPIO, simplifying both the hardware and firmware at the expense of additional MCU pins."
+		(exclude_from_sim no)
+		(at -67.31 52.07 0)
+		(size 76.2 16.51)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.635)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 0.2)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "d6b09d3c-3d99-4308-ae98-55111333a081")
+	)
+	(text_box "Side Buttons (PB_VOL_UP, PB_VOL_DOWN, PB_PWR) - physical controls mounted on the side of the phone for volume adjustment and power-button input. Each button is a single tactile switch connected between its dedicated MCU GPIO and ground."
+		(exclude_from_sim no)
+		(at -68.58 166.37 0)
+		(size 76.2 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.635)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 0.2)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "d85ee585-5b3a-4c70-836c-c1b985052f6a")
+	)
+	(text_box "D-Pad Buttons (PB_DPAD_UP, PB_DPAD_DOWN, PB_DPAD_LEFT, PB_DPAD_RIGHT, PB_DPAD_SELECT) - the phone's five-way navigation control used to move through menus and confirm selections. The centre Select key uses two parallel switches, while the four directional keys each use a single tactile switch. Every signal connects directly to a dedicated STM32 GPIO and is pulled to ground when pressed."
+		(exclude_from_sim no)
+		(at -68.58 138.43 0)
+		(size 76.2 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.635)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 0.2)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "f047f71e-8495-4c91-a7d0-926e3461c68e")
+	)
+	(text_box "Menu/Call Buttons (PB_MENU_R, PB_END_CALL, PB_MENU_L, PB_CALL) - dedicated control keys for navigating the phone interface and managing calls. Each logical key uses two tactile switches wired in parallel, giving a larger actuation area and improving reliability. Pressing either switch connects the corresponding MCU GPIO to ground, and the STM32 detects the resulting logic LOW using an internal pull-up."
+		(exclude_from_sim no)
+		(at -68.58 110.49 0)
+		(size 76.2 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.635)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 0.2)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "fa829605-cfcf-4ea4-8424-97cc648bf360")
+	)
+	(text_box "all user input buttons for the phone, including the numeric keypad, menu keys, navigation pad and side buttons. Each pushbutton connects an MCU GPIO directly to ground when pressed, allowing the MCU to detect user input using its internal pull-up resistors. The firmware continuously scans these GPIOs and debounces each button to eliminate false triggers caused by mechanical contact bounce."
+		(exclude_from_sim no)
+		(at 43.18 -6.35 0)
+		(size 76.2 13.97)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.635)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 0.2)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "fd518f73-437f-44d3-a710-608119204f6d")
+	)
+	(text_box "Purpose\n• Provides keypad backlighting and status indication.\n• Individually controllable RGB illumination.\n• Powered from the switched display rail to minimise standby power."
+		(exclude_from_sim no)
+		(at 297.18 40.64 0)
+		(size 76.2 11.43)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.635)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 0.2)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "fdcd8f54-ba85-4196-b03a-267a64a26a56")
 	)
 	(junction
 		(at 102.87 53.34)
@@ -4321,6 +4537,17 @@
 			(type default)
 		)
 		(uuid "d14b8b79-42f2-4d1e-a6af-fef9bfc23c99")
+	)
+	(polyline
+		(pts
+			(xy 107.95 153.67) (xy 107.95 222.25)
+		)
+		(stroke
+			(width 0.635)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "d14c652f-ff58-4d55-8daa-9d88c657a3b0")
 	)
 	(wire
 		(pts

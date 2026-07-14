@@ -7858,6 +7858,54 @@
 		)
 		(uuid "836c7039-68e2-4b71-b4be-e7a80c081211")
 	)
+	(text_box "Operation\n• Reads sensors and user inputs.\n• Controls the modem, display, SD card and audio.\n• Communicates using UART, SPI, I²C, SDIO, PWM and GPIO.\n"
+		(exclude_from_sim no)
+		(at 250.19 -3.81 0)
+		(size 55.88 11.43)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.635)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 0.2)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "056a6355-83dc-4278-bfce-e9845b4b7e75")
+	)
+	(text_box " simple transistor shifters just for MOB_PWR and MOB_RST. Cheaper than a full chip, fine here since these are slow on/off signals, not fast data."
+		(exclude_from_sim no)
+		(at -35.56 243.84 0)
+		(size 55.88 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.635)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 0.2)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "1930976a-592a-4184-856a-baa078d008ed")
+	)
 	(text_box "Programmer"
 		(exclude_from_sim no)
 		(at 139.7 22.86 0)
@@ -7902,6 +7950,294 @@
 		)
 		(uuid "2ef199b9-d5d3-404f-bf8b-49cadbd25a2d")
 	)
+	(text_box "Purpose\n• Converts logic levels\n• Protects the MCU\n• Allows 3.3V and 1.8V devices to communicate"
+		(exclude_from_sim no)
+		(at -21.59 158.75 0)
+		(size 55.88 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.635)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 0.2)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "3b2423fd-bbf5-42ea-8e97-9ad1ae39ef84")
+	)
+	(text_box "Operation\n• Signals from either side are automatically translated.\n• Pull-up resistors define the logic HIGH voltage on each bus.\n• Supports two-way communication without MCU intervention."
+		(exclude_from_sim no)
+		(at 180.34 303.53 0)
+		(size 55.88 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.635)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 0.2)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "509bf7f0-4393-493c-b781-acff12fd92b9")
+	)
+	(text_box "a dedicated I2C-specific level shifter, not just a generic buffer. I2C needs this because it's open-drain and bidirectional (both sides can pull the line low), which a plain shifter like the TXU parts can't handle correctly."
+		(exclude_from_sim no)
+		(at 180.34 274.32 0)
+		(size 55.88 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.635)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 0.2)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "5a4a63f5-4104-4b7c-9ab6-0acad6cf947b")
+	)
+	(text_box "Operation\n• The MCU drives MOB_PWR_CTL or MOB_RST_CTL HIGH.\n• The transistor turns on and pulls the modem control pin LOW.\n• This electronically simulates pressing the modem's Power or Reset button."
+		(exclude_from_sim no)
+		(at -35.56 273.05 0)
+		(size 55.88 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.635)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 0.2)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "66bf82cf-0769-41be-b808-ce8a09bc0208")
+	)
+	(text_box "your SWD programming connector, used to flash and debug the MCU. This is D-3 - the one currently blocked by the display and battery when you go to program the board."
+		(exclude_from_sim no)
+		(at 139.7 86.36 0)
+		(size 55.88 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.635)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 0.2)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "7770f7e4-79fd-4f54-bdc6-1d34a80be068")
+	)
+	(text_box "Purpose\n• Allows the MCU to control the modem's Power and Reset pins.\n• Provides an open-collector pull-down interface.\n• Matches the modem's required control signalling."
+		(exclude_from_sim no)
+		(at -35.56 256.54 0)
+		(size 55.88 13.97)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.635)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 0.2)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "7be725d9-5979-4166-b7a4-f05c18d6cb79")
+	)
+	(text_box "the main processor running the whole phone. C14-C19 (4.7µF + six 100nF) are decoupling caps, one set per VDD pin, since the H7 has multiple internal power domains that each need local filtering. NRST+C20 (100nF) filters the reset line so noise doesn't accidentally reset the chip. BOOT0+R20 (10k) sets which memory the chip boots from on power-up. VCAP+C25/C26 (2.2µF) feed the MCU's internal core regulator - required by ST's datasheet, not optional."
+		(exclude_from_sim no)
+		(at 311.15 -16.51 0)
+		(size 55.88 24.13)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.635)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 0.2)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "87e5b11f-7046-4083-b8f7-ae97732fbec8")
+	)
+	(text_box "Operation\n• An external ST-Link connects via SWDIO, SWCLK and RESET.\n• Firmware is downloaded directly into the STM32 Flash memory.\n• SWO provides optional real-time debug output."
+		(exclude_from_sim no)
+		(at 139.7 107.95 0)
+		(size 55.88 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.635)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 0.2)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "8c810e0d-5fee-4343-9bf7-7160a7c996e9")
+	)
+	(text_box "Operation\n• Routes UART, SIM, USB, audio and control signals\nbetween the main PCB and RC7620 module."
+		(exclude_from_sim no)
+		(at 21.59 10.16 0)
+		(size 55.88 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.635)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 0.2)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "8c8fc824-c4da-4487-b28d-514ec5c655d4")
+	)
+	(text_box "Operation\n• The STM32 operates at 3.3V.\n• The RC7620 modem uses 1.8V logic.\n• Level translators safely convert signals between them."
+		(exclude_from_sim no)
+		(at -21.59 170.18 0)
+		(size 55.88 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.635)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 0.2)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "8eaf454f-b143-4bb2-833b-53bead2be3d1")
+	)
+	(text_box "Purpose\n• Translates I²C signals between 1.8V and 3.3V logic levels.\n• Allows the MCU and modem to communicate safely.\n• Maintains bidirectional I²C operation."
+		(exclude_from_sim no)
+		(at 180.34 287.02 0)
+		(size 55.88 13.97)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.635)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 0.2)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "92230f92-82c3-476c-bae5-876b9a9d8706")
+	)
+	(text_box "Purpose\n• Programs the STM32 firmware.\n• Provides debugging and breakpoint support.\n• Allows recovery of the MCU if firmware becomes corrupted."
+		(exclude_from_sim no)
+		(at 139.7 95.25 0)
+		(size 55.88 11.43)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.635)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 0.2)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "a1a21a1b-9b11-4a47-ba8b-7d2269f77061")
+	)
 	(text_box "Logic Level Translation\n"
 		(exclude_from_sim no)
 		(at 21.59 128.27 0)
@@ -7923,6 +8259,102 @@
 			(justify bottom)
 		)
 		(uuid "aa92931b-5936-4df1-87ee-d9ea42838a4e")
+	)
+	(text_box "Purpose\n• Connect the main PCB to the modem PCB\n• Carry power and signals\n• Modular board interface"
+		(exclude_from_sim no)
+		(at 21.59 -2.54 0)
+		(size 55.88 11.43)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.635)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 0.2)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "ae16db09-c59e-4bf1-b2d3-4017f5de6584")
+	)
+	(text_box "Purpose\n• Main processor of the phone\n• Executes all firmware\n• Controls every peripheral"
+		(exclude_from_sim no)
+		(at 250.19 -16.51 0)
+		(size 55.88 11.43)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.635)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 0.2)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "b760d44f-83bb-4a91-ba71-ddf86d358fa3")
+	)
+	(text_box "he physical link between your main PCB and the secondary mobile-module PCB. Every signal that needs to cross the stack goes through here - modem power/reset/wake, audio, UART, SIM lines, plus raw battery voltage and +1.8V."
+		(exclude_from_sim no)
+		(at 80.01 -2.54 0)
+		(size 55.88 11.43)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.635)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 0.2)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "df57a4e0-1030-4dfe-a777-5ea202605d03")
+	)
+	(text_box "he MCU runs at 3.3V, the modem runs at 1.8V, so every signal crossing between them needs a translator. U17 handles UART, U18 handles modem status lines (RI/DSR/DCD/DTR), U19 handles audio sync/clock signals, U20 handles wake/safe-power-remove/headphone-detec."
+		(exclude_from_sim no)
+		(at -21.59 143.51 0)
+		(size 55.88 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.635)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 0.2)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "e5b395ee-9a5b-4dc4-84e0-f6bc88142715")
 	)
 	(text_box "MCU"
 		(exclude_from_sim no)

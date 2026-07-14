@@ -4500,6 +4500,30 @@
 		)
 		(uuid "0281b36a-e06b-4382-94fc-aab78a7bac20")
 	)
+	(text_box "Display (DISP1 - HS20H5072RX) - the primary user interface for displaying menus, status and phone information. The MCU communicates with the display over an SPI interface (CS, DC, SCL and SDA), while RESET allows the MCU to hardware reset the display controller if required. The display logic and LCD power are supplied from +3.3V_SW, allowing James' load switch to completely disconnect the display when not in use. LEDA/LEDK connect to the separate backlight driver circuit, enabling independent brightness control."
+		(exclude_from_sim no)
+		(at 309.88 189.23 0)
+		(size 68.58 17.78)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.635)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 0.2)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "082772ba-3488-4af1-a068-73a38443eadd")
+	)
 	(text_box "Motor & Vibration\n"
 		(exclude_from_sim no)
 		(at 171.45 114.3 0)
@@ -4544,6 +4568,30 @@
 		)
 		(uuid "71f4c205-9a59-4f47-b07d-9c147f0bf9f6")
 	)
+	(text_box "IMU (U11 - LSM6DSVTR) - a six-axis Inertial Measurement Unit containing a 3-axis accelerometer and 3-axis gyroscope. It provides motion, orientation and gesture data to the MCU over the I²C bus (SCL/SDA). C34 and C35 (100nF) are local decoupling capacitors required for stable operation. The MCU can use the IMU for motion detection, screen orientation, activity recognition or future gesture-based user interfaces."
+		(exclude_from_sim no)
+		(at -43.18 144.78 0)
+		(size 76.2 13.97)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.635)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 0.2)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "7e764a64-f8bc-4846-ac8c-406ca1f5b5ef")
+	)
 	(text_box "Backlight Driver\n"
 		(exclude_from_sim no)
 		(at 307.34 30.48 0)
@@ -4565,6 +4613,79 @@
 			(justify bottom)
 		)
 		(uuid "80f44268-b6b5-4c84-91b1-22763672806c")
+	)
+	(text_box "Backlight Driver (Q3 - S8050 NPN transistor) - switches the LCD backlight LEDs under MCU control. R26 (1k) limits the base current from the MCU, R21 (10k) pulls the transistor off during MCU reset, and R27 (5Ω) limits the LED backlight current. The MCU drives DISP_BL, which turns the transistor on or off, allowing software brightness control or complete backlight shutdown. This works together with James' display load switch, which can remove power from the entire display subsystem for zero standby current."
+		(exclude_from_sim no)
+		(at 307.34 7.62 0)
+		(size 76.2 21.59)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.635)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 0.2)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "a9ed86c4-c745-4641-8a24-f5e79d521cce")
+	)
+	(text_box "Micro SIM Card (J8B - XUNPU MCS-302S-C1) - connects the RC7620 modem to the mobile network. U8 (TPD3S303DQDR) protects the SIM clock, reset and data lines from ESD events caused by handling or card insertion. C32 (100nF) provides local supply decoupling while C33 (33pF) filters supply noise on the SIM power rail. The modem communicates directly with the SIM through the standard ISO-7816 interface (VCC, CLK, RST and DATA). Unlike the SD card, the SIM power is generated and controlled internally by the RC7620 modem."
+		(exclude_from_sim no)
+		(at 171.45 7.62 0)
+		(size 76.2 21.59)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.635)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 0.2)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "b547516f-dfc0-4384-819f-d33a9be70f90")
+	)
+	(text_box "Load Switch (U7 - TPS22964CYZPR) - dedicated power switch added as part of the D-1 design improvement to prevent the MicroSD card from being powered during tray insertion. The switch receives the always-on +3.3V supply and generates a controlled output SD_VDD_SW, which powers only the SD card. C22 and C23 (1µF) provide input and output decoupling, while R29 (100k) ensures the switch remains off during MCU reset by pulling the ON pin low. The MCU drives SD_PWR_EN after detecting a stable tray insertion, allowing firmware to sequence SD power safely and eliminate the shared SIM/SD voltage bridging fault identified during testing."
+		(exclude_from_sim no)
+		(at -43.18 218.44 0)
+		(size 76.2 20.32)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.635)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 0 255 0.4)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 1)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "c6164863-0dfe-44f7-a83a-2a13cedbe4f9")
 	)
 	(text_box "Micro SIM card"
 		(exclude_from_sim no)
@@ -4609,6 +4730,54 @@
 			(justify bottom)
 		)
 		(uuid "e485e129-f44a-43e8-a57f-68426224a129")
+	)
+	(text_box "Micro SD Card (J8A - XUNPU MCS-302S-C1) - removable storage used by the phone for files, firmware updates and user data. U10 (TPD6F003DQDR) is a 6-channel ESD protection array that protects the high-speed SDIO lines (CMD, CLK, DAT0-DAT3) from electrostatic discharge when the user inserts or removes the card. R25 (10k) pulls the tray-detect switch high so the MCU can detect when the shared SIM/SD tray is fully inserted. D-1 improvement: the SD card VDD is now powered from SD_VDD_SW instead of the always-on 3.3V rail. This allows the MCU to keep the SD card unpowered during insertion, preventing accidental voltage coupling between the SD and SIM contacts in the shared tray."
+		(exclude_from_sim no)
+		(at 35.56 7.62 0)
+		(size 76.2 21.59)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.635)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 0.2)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "e890d1da-3ba1-4ad6-93a3-f7325fd9e3b7")
+	)
+	(text_box "Motor & Vibration (U12 - DRV2603RUNR) - dedicated vibration motor driver used to provide haptic feedback. The MCU controls the driver using VIB_EN (enable) and VIB_PWM (PWM intensity control), while the DRV2603 supplies the higher current required by the vibration motor M1. C29 (100nF) provides supply decoupling during motor startup. Using a dedicated driver prevents the MCU GPIO from sourcing excessive current and allows programmable vibration strength."
+		(exclude_from_sim no)
+		(at 199.39 189.23 0)
+		(size 76.2 15.24)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.635)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 0.2)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "eddee72d-1c14-4b16-b139-fd6194a8d142")
 	)
 	(text_box "Load Switch - SIM/SD\n"
 		(exclude_from_sim no)
