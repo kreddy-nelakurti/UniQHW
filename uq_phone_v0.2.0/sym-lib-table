@@ -57,4 +57,5 @@
   (lib (name "TXU0104")(type "KiCad")(uri "${USR_SYMBOL_DIR}/TXU0x04DTRR/TXU0104.kicad_sym")(options "")(descr ""))
   (lib (name "TXU0204")(type "KiCad")(uri "${USR_SYMBOL_DIR}/TXU0x04DTRR/TXU0204.kicad_sym")(options "")(descr ""))
   (lib (name "TXU0304")(type "KiCad")(uri "${USR_SYMBOL_DIR}/TXU0x04DTRR/TXU0304.kicad_sym")(options "")(descr ""))
+  (lib (name "BAT54")(type "KiCad")(uri "C:/Users/karan/OneDrive/Desktop/University/YEAR 4/Thesis/Components/BAT54/diode-nc_pin.kicad_sym")(options "")(descr ""))
 )

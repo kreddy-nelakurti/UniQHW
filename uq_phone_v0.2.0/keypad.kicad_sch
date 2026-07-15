@@ -5147,19 +5147,20 @@
 			)
 		)
 	)
-	(global_label "PB_PWR"
+	(global_label "PWR_BUTTON_RAW"
 		(shape input)
 		(at 113.03 148.59 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 0 0 255 1)
 			)
 			(justify right)
 		)
 		(uuid "37080a6e-5b50-4796-b498-ea9afd739898")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.5458 148.59 0)
+			(at 93.1115 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)

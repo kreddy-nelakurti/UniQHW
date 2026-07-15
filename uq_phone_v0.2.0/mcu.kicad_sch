@@ -7884,7 +7884,7 @@
 	)
 	(text_box " simple transistor shifters just for MOB_PWR and MOB_RST. Cheaper than a full chip, fine here since these are slow on/off signals, not fast data."
 		(exclude_from_sim no)
-		(at -35.56 243.84 0)
+		(at -30.48 236.22 0)
 		(size 55.88 8.89)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -7952,7 +7952,7 @@
 	)
 	(text_box "Purpose\n• Converts logic levels\n• Protects the MCU\n• Allows 3.3V and 1.8V devices to communicate"
 		(exclude_from_sim no)
-		(at -21.59 158.75 0)
+		(at -19.05 157.48 0)
 		(size 55.88 10.16)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -8024,7 +8024,7 @@
 	)
 	(text_box "Operation\n• The MCU drives MOB_PWR_CTL or MOB_RST_CTL HIGH.\n• The transistor turns on and pulls the modem control pin LOW.\n• This electronically simulates pressing the modem's Power or Reset button."
 		(exclude_from_sim no)
-		(at -35.56 273.05 0)
+		(at -30.48 265.43 0)
 		(size 55.88 12.7)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -8072,7 +8072,7 @@
 	)
 	(text_box "Purpose\n• Allows the MCU to control the modem's Power and Reset pins.\n• Provides an open-collector pull-down interface.\n• Matches the modem's required control signalling."
 		(exclude_from_sim no)
-		(at -35.56 256.54 0)
+		(at -30.48 248.92 0)
 		(size 55.88 13.97)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -8168,7 +8168,7 @@
 	)
 	(text_box "Operation\n• The STM32 operates at 3.3V.\n• The RC7620 modem uses 1.8V logic.\n• Level translators safely convert signals between them."
 		(exclude_from_sim no)
-		(at -21.59 170.18 0)
+		(at -19.05 170.18 0)
 		(size 55.88 10.16)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -8334,7 +8334,7 @@
 	)
 	(text_box "he MCU runs at 3.3V, the modem runs at 1.8V, so every signal crossing between them needs a translator. U17 handles UART, U18 handles modem status lines (RI/DSR/DCD/DTR), U19 handles audio sync/clock signals, U20 handles wake/safe-power-remove/headphone-detec."
 		(exclude_from_sim no)
-		(at -21.59 143.51 0)
+		(at -19.05 142.24 0)
 		(size 55.88 12.7)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -8809,10 +8809,6 @@
 	(no_connect
 		(at 353.06 105.41)
 		(uuid "502855f9-226b-48f6-b353-af06afe6f158")
-	)
-	(no_connect
-		(at 353.06 115.57)
-		(uuid "71deb20c-8928-4ba5-9aa7-aa6ba39c6697")
 	)
 	(no_connect
 		(at 292.1 107.95)
@@ -11104,6 +11100,16 @@
 	)
 	(wire
 		(pts
+			(xy 353.06 115.57) (xy 358.14 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b57597a3-3ee1-4b57-bf25-346abc2fb48d")
+	)
+	(wire
+		(pts
 			(xy 325.12 55.88) (xy 330.2 55.88)
 		)
 		(stroke
@@ -12385,19 +12391,20 @@
 			)
 		)
 	)
-	(global_label "PB_PWR"
+	(global_label "PWR_BUTTON_SENSE"
 		(shape input)
 		(at 356.87 140.97 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 0 0 255 1)
 			)
 			(justify left)
 		)
 		(uuid "19742ae1-66c3-4827-b206-b52d61f039aa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 367.3542 140.97 0)
+			(at 379.026 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14230,6 +14237,29 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PWR_HOLD"
+		(shape output)
+		(at 358.14 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 255 1)
+			)
+			(justify left)
+		)
+		(uuid "c0b6d97d-8426-43ac-9b40-818f024b77b4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 371.0433 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
