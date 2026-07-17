@@ -12258,7 +12258,7 @@
 			)
 		)
 	)
-	(global_label "uSD_SIM_CD"
+	(global_label "uSD_TRAY_DET"
 		(shape input)
 		(at 356.87 138.43 0)
 		(fields_autoplaced yes)
@@ -12271,7 +12271,7 @@
 		)
 		(uuid "0cb24798-3ff9-4db1-95d2-3bbbac963f26")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 371.2246 138.43 0)
+			(at 373.2203 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
