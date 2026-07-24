@@ -1555,12 +1555,6 @@
 		(uuid "5db6bf07-740c-4847-b665-827e25f4cdca")
 	)
 	(junction
-		(at 125.73 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6202ca4a-168a-4d7a-828d-a636fec6cbec")
-	)
-	(junction
 		(at 46.99 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1847,12 +1841,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d40814f2-d237-4eec-9d45-29ce951ee148")
-	)
-	(junction
-		(at 115.57 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d649add2-591a-4d5f-8b8c-cead68e13d6f")
 	)
 	(junction
 		(at 57.15 38.1)
@@ -2357,16 +2345,6 @@
 			(type default)
 		)
 		(uuid "24393d18-3bd1-4287-a325-f8d5af3cb086")
-	)
-	(wire
-		(pts
-			(xy 113.03 148.59) (xy 115.57 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "255f5b96-f4f0-422c-a839-98e557f86c7d")
 	)
 	(wire
 		(pts
@@ -3410,16 +3388,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 147.32) (xy 125.73 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7aba6488-83dd-45fb-9189-dfc9d5451f14")
-	)
-	(wire
-		(pts
 			(xy 115.57 135.89) (xy 115.57 137.16)
 		)
 		(stroke
@@ -3560,16 +3528,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 147.32) (xy 115.57 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8619cb4f-acee-4efa-97b5-1506111f345e")
-	)
-	(wire
-		(pts
 			(xy 102.87 92.71) (xy 102.87 95.25)
 		)
 		(stroke
@@ -3597,16 +3555,6 @@
 			(type default)
 		)
 		(uuid "875d358c-40a2-48a6-b451-2271efbdee13")
-	)
-	(wire
-		(pts
-			(xy 115.57 148.59) (xy 115.57 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87ef7d7b-083e-4891-81aa-6426f52a7857")
 	)
 	(wire
 		(pts
@@ -4538,17 +4486,6 @@
 		)
 		(uuid "d14b8b79-42f2-4d1e-a6af-fef9bfc23c99")
 	)
-	(polyline
-		(pts
-			(xy 107.95 153.67) (xy 107.95 222.25)
-		)
-		(stroke
-			(width 0.635)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(uuid "d14c652f-ff58-4d55-8daa-9d88c657a3b0")
-	)
 	(wire
 		(pts
 			(xy 45.72 118.11) (xy 45.72 120.65)
@@ -4641,16 +4578,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 148.59) (xy 129.54 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d65845a3-4754-4e60-86fa-4616743c0c3e")
-	)
-	(wire
-		(pts
 			(xy 45.72 172.72) (xy 45.72 175.26)
 		)
 		(stroke
@@ -4688,16 +4615,6 @@
 			(type default)
 		)
 		(uuid "d9d9f950-8f00-4c0b-b155-b279f07e0870")
-	)
-	(wire
-		(pts
-			(xy 125.73 148.59) (xy 125.73 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da3048e1-8041-401a-a88f-b4d91d90359e")
 	)
 	(wire
 		(pts
@@ -5138,29 +5055,6 @@
 		(uuid "14699062-88f2-45fc-8542-b4c7e9d9b00e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 153.2853 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PWR_BUTTON_RAW"
-		(shape input)
-		(at 113.03 148.59 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 0 0 255 1)
-			)
-			(justify right)
-		)
-		(uuid "37080a6e-5b50-4796-b498-ea9afd739898")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.1115 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12135,108 +12029,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Misc:SKSCLCE010")
-		(at 120.65 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b172178c-c003-48c3-ac17-8b362f7aa16a")
-		(property "Reference" "SW22"
-			(at 120.65 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SKSCLCE010"
-			(at 120.65 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "custom_footprints:SKSCLCE010"
-			(at 120.65 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 120.65 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC PN" "C139799"
-			(at 120.65 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" ""
-			(at 120.65 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS PN" ""
-			(at 120.65 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "ba785833-3e09-45a7-8dc7-7da0d6cb432d")
-		)
-		(pin "4"
-			(uuid "d4a868f2-d93f-4709-874f-6cb5a84854cd")
-		)
-		(pin "1"
-			(uuid "ba4a5c8f-2815-47e4-8be3-ee32a927e6ad")
-		)
-		(pin "2"
-			(uuid "59c94ac4-4a8b-4b0c-b45a-008a2c43f443")
-		)
-		(instances
-			(project "uq_phone"
-				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "SW22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 90.17 165.1 0)
 		(mirror y)
@@ -13101,72 +12893,6 @@
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
 					(reference "#PWR0139")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 129.54 148.59 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c8f60171-0f1a-46d2-9b87-3194933342fa")
-		(property "Reference" "#PWR0143"
-			(at 129.54 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 129.54 153.162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 129.54 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cc8bf771-fe0e-47f6-90b9-1784860d38c1")
-		)
-		(instances
-			(project "uq_phone"
-				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "#PWR0143")
 					(unit 1)
 				)
 			)

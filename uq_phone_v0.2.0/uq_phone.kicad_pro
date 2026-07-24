@@ -1343,6 +1343,10 @@
     [
       "f23e268a-469e-43b6-84c9-7924a6d2bdbb",
       "Keypad"
+    ],
+    [
+      "38b2de56-100e-42d4-87e1-7dc9ff9ca6c8",
+      "Soft Power Switch"
     ]
   ],
   "text_variables": {}

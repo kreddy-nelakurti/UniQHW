@@ -7882,6 +7882,30 @@
 		)
 		(uuid "056a6355-83dc-4278-bfce-e9845b4b7e75")
 	)
+	(text_box "PWR_BUTTON_SENSE is an MCU input signal that detects whether the power button is being pressed.\n\nThe MCU uses it to measure how long the button is held and can shut the system down after a 3-second press."
+		(exclude_from_sim no)
+		(at 422.91 144.78 0)
+		(size 55.88 16.51)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.635)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 0.2)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "078df1e5-9df6-4a00-9cb2-fe9bca684d06")
+	)
 	(text_box " simple transistor shifters just for MOB_PWR and MOB_RST. Cheaper than a full chip, fine here since these are slow on/off signals, not fast data."
 		(exclude_from_sim no)
 		(at -30.48 236.22 0)
@@ -8165,6 +8189,30 @@
 			(justify left top)
 		)
 		(uuid "8c8fc824-c4da-4487-b28d-514ec5c655d4")
+	)
+	(text_box "MCU_PWR_LATCH is a control signal from the MCU that turns on the small NPN transistor, which keeps the main PMOS switched on so power continues flowing to the regulator after you let go of the button; when the MCU drives this signal low, the transistor releases the PMOS gate and the whole system turns off."
+		(exclude_from_sim no)
+		(at 421.64 101.6 0)
+		(size 55.88 16.51)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.635)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 0.2)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "8d2a62f0-f1f5-4b40-a806-8109f5782ea6")
 	)
 	(text_box "Operation\n• The STM32 operates at 3.3V.\n• The RC7620 modem uses 1.8V logic.\n• Level translators safely convert signals between them."
 		(exclude_from_sim no)
@@ -14241,7 +14289,7 @@
 			)
 		)
 	)
-	(global_label "PWR_HOLD"
+	(global_label "MCU_PWR_LATCH"
 		(shape output)
 		(at 358.14 115.57 0)
 		(fields_autoplaced yes)
@@ -14254,7 +14302,7 @@
 		)
 		(uuid "c0b6d97d-8426-43ac-9b40-818f024b77b4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 371.0433 115.57 0)
+			(at 376.7885 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)

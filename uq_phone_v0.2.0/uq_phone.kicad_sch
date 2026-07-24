@@ -26,6 +26,48 @@
 		(uuid "acdc222a-867b-4c3c-9464-18ed378f936c")
 	)
 	(sheet
+		(at 19.05 180.34)
+		(size 116.84 71.12)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "38b2de56-100e-42d4-87e1-7dc9ff9ca6c8")
+		(property "Sheetname" "Soft Power Switch"
+			(at 19.05 179.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "soft_power_switch.kicad_sch"
+			(at 19.05 252.0446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "uq_phone"
+				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 17.78 96.52)
 		(size 116.84 68.58)
 		(exclude_from_sim no)
