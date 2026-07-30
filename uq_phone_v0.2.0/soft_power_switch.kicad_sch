@@ -5,52 +5,52 @@
 	(uuid "b158ef66-b62f-40c2-905d-91f68d4b257c")
 	(paper "A4")
 	(lib_symbols
-		(symbol "BAT54:Diode-NC_pin"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "BAT54LP-7:BAT54LP-7"
 			(pin_names
-				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at 0 7.62 0)
+				(at 12.7 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Value" "Diode"
-				(at -2.54 5.08 0)
+			(property "Value" "BAT54LP-7"
+				(at 12.7 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left top)
 				)
 			)
-			(property "Footprint" ""
-				(at -1.27 3.81 90)
+			(property "Footprint" "DESD3V3S1BL7B"
+				(at 12.7 -93.65 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://diotec.com/de/produktliste/D.html"
-				(at 0 -5.08 0)
+			(property "Datasheet" "https://www.diodes.com//assets/Datasheets/BAT54LP.pdf"
+				(at 12.7 -193.65 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Description" "Diode with NC pin"
+			(property "Description" "Diodes Inc BAT54LP-7 SMT Schottky Diode, 30V 200mA, 2-Pin DFN"
 				(at 0 0 0)
 				(effects
 					(font
@@ -59,31 +59,80 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" " Doide NC pin"
-				(at 0 0 0)
+			(property "Height" ""
+				(at 12.7 -393.65 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(symbol "Diode-NC_pin_0_1"
-				(polyline
-					(pts
-						(xy -2.54 2.54) (xy 0 2.54)
+			(property "Manufacturer_Name" "Diodes Incorporated"
+				(at 12.7 -493.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
+					(justify left top)
+					(hide yes)
 				)
+			)
+			(property "Manufacturer_Part_Number" "BAT54LP-7"
+				(at 12.7 -593.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "621-BAT54LP-7"
+				(at 12.7 -693.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/BAT54LP-7?qs=rGAXPo9uwV29av2jO%2FVbTg%3D%3D"
+				(at 12.7 -793.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "BAT54LP-7"
+				(at 12.7 -893.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/bat54lp-7/diodes-incorporated?utm_currency=USD&region=nac"
+				(at 12.7 -993.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "BAT54LP-7_1_1"
 				(polyline
 					(pts
-						(xy -2.54 1.27) (xy -2.54 3.81) (xy 0 2.54) (xy -2.54 1.27)
+						(xy 5.08 0) (xy 7.62 0)
 					)
 					(stroke
 						(width 0.254)
@@ -95,7 +144,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 1.27) (xy 0 3.81)
+						(xy 6.604 -1.524) (xy 6.604 -2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -107,22 +156,80 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 0) (xy 2.54 2.54) (xy 0 2.54)
+						(xy 7.62 2.54) (xy 7.62 -2.54)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-			)
-			(symbol "Diode-NC_pin_1_1"
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 8.636 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 12.7 2.54) (xy 12.7 -2.54) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 6.604 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.636 1.524) (xy 8.636 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 0) (xy 15.24 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at 2.54 0 0)
 					(length 2.54)
-					(name "A"
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -137,28 +244,10 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at 17.78 0 180)
 					(length 2.54)
-					(name "C"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1725,7 +1814,7 @@
 	)
 	(text "REG VIN - pulldown\n"
 		(exclude_from_sim no)
-		(at 225.298 96.52 0)
+		(at 221.488 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1735,8 +1824,8 @@
 	)
 	(text_box "MMBT3904LP\n3 - Collector\n2 - Emmiter\n1 - Base"
 		(exclude_from_sim no)
-		(at 187.96 97.79 0)
-		(size 19.05 10.16)
+		(at 181.61 93.98 0)
+		(size 24.13 10.16)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0.635)
@@ -1759,7 +1848,7 @@
 	)
 	(text_box "Logic:\nif POWER BUTTON HELD > 3 secs\n\nthen MCU_PWR_LTACH writes a LOW"
 		(exclude_from_sim no)
-		(at 46.99 85.09 0)
+		(at 45.72 82.55 0)
 		(size 21.59 11.43)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -1783,8 +1872,8 @@
 	)
 	(text_box "Can add capacitor \n"
 		(exclude_from_sim no)
-		(at 92.71 46.99 0)
-		(size 17.78 5.08)
+		(at 90.17 44.45 0)
+		(size 13.97 5.08)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0.635)
@@ -1807,7 +1896,7 @@
 	)
 	(text_box "Current Limiting Resistor\n"
 		(exclude_from_sim no)
-		(at 130.81 105.41 0)
+		(at 127 102.87 0)
 		(size 15.24 5.08)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -1831,7 +1920,7 @@
 	)
 	(text_box "Battery Manager Power\n\"VIN\" to this circuit\n"
 		(exclude_from_sim no)
-		(at 185.42 88.9 0)
+		(at 181.61 86.36 0)
 		(size 24.13 6.35)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -1855,8 +1944,8 @@
 	)
 	(text_box "first thing:\nGPIO Output (HIGH) - Keeps MOSFET ON after power switch is in OFF state\n\nWhen LOW - Kills Power"
 		(exclude_from_sim no)
-		(at 74.93 107.95 0)
-		(size 21.59 11.43)
+		(at 69.85 105.41 0)
+		(size 20.32 11.43)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0.635)
@@ -1879,8 +1968,8 @@
 	)
 	(text_box "max 0.9v drop\n"
 		(exclude_from_sim no)
-		(at 142.24 49.53 0)
-		(size 17.78 5.08)
+		(at 105.41 46.99 0)
+		(size 13.97 5.08)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0.635)
@@ -1903,7 +1992,7 @@
 	)
 	(text_box "Pulldown keeps base LOW and not floating when MCU OFF"
 		(exclude_from_sim no)
-		(at 153.67 116.84 0)
+		(at 149.86 114.3 0)
 		(size 15.24 7.62)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -1927,7 +2016,7 @@
 	)
 	(text_box "SOFT POWER SWITCH\n"
 		(exclude_from_sim no)
-		(at 30.48 21.59 0)
+		(at 26.67 19.05 0)
 		(size 248.92 139.7)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -1949,8 +2038,8 @@
 	)
 	(text_box "to Regulator Power\n\"VOUT\" of this circuit"
 		(exclude_from_sim no)
-		(at 229.87 43.18 0)
-		(size 19.05 8.89)
+		(at 220.98 52.07 0)
+		(size 15.24 11.43)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0.635)
@@ -1973,7 +2062,7 @@
 	)
 	(text_box "Power Switch\n"
 		(exclude_from_sim no)
-		(at 93.98 53.34 0)
+		(at 90.17 50.8 0)
 		(size 13.97 3.81)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -1997,7 +2086,7 @@
 	)
 	(text_box "Q4: DMP2035U-7\n1 - Gate\n2 - Source\n3 - Drain\n"
 		(exclude_from_sim no)
-		(at 224.79 67.31 0)
+		(at 220.98 64.77 0)
 		(size 15.24 13.97)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -2021,7 +2110,7 @@
 	)
 	(text_box "GPIO Input (Read) - enable internal pullup\n\nWhen Power Switch pressed -> PWR_BUTTON_SENSE Reads LOW\n"
 		(exclude_from_sim no)
-		(at 72.39 85.09 0)
+		(at 68.58 82.55 0)
 		(size 21.59 11.43)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -2044,50 +2133,56 @@
 		(uuid "fd293ba7-5692-4c3b-b2df-30dbcd2a0644")
 	)
 	(junction
-		(at 105.41 64.77)
+		(at 101.6 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "00e07340-1944-4f72-9be6-96672b840135")
 	)
 	(junction
-		(at 137.16 64.77)
+		(at 116.84 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2aa2166e-4f8b-44ce-925f-008a8f9cda42")
+		(uuid "4b0698d6-cc40-466f-99d7-3e0c919e4e56")
 	)
 	(junction
-		(at 198.12 67.31)
+		(at 135.89 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b789339-3cf8-457b-a3cc-50350f947531")
+	)
+	(junction
+		(at 194.31 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7edc467a-5a58-42c9-9378-4b57bca19fc3")
 	)
 	(junction
-		(at 172.72 113.03)
+		(at 168.91 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a85818e8-17c8-4b68-8e27-51470f63b300")
 	)
 	(junction
-		(at 182.88 67.31)
+		(at 179.07 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c741e9f3-25ef-4337-a79f-580199da4639")
 	)
 	(junction
-		(at 198.12 45.72)
+		(at 194.31 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f2ded481-e41b-490b-aae6-9510bb7a515e")
 	)
 	(junction
-		(at 95.25 64.77)
+		(at 91.44 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4214b92-cdf5-4c91-b5a8-e7de4360a153")
 	)
 	(wire
 		(pts
-			(xy 198.12 45.72) (xy 214.63 45.72)
+			(xy 194.31 43.18) (xy 210.82 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2097,7 +2192,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 118.11) (xy 182.88 129.54)
+			(xy 179.07 115.57) (xy 179.07 127)
 		)
 		(stroke
 			(width 0)
@@ -2107,7 +2202,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 64.77) (xy 95.25 64.77)
+			(xy 81.28 62.23) (xy 91.44 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2117,7 +2212,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 67.31) (xy 201.93 67.31)
+			(xy 194.31 64.77) (xy 198.12 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2127,7 +2222,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 90.17) (xy 120.65 90.17)
+			(xy 114.3 87.63) (xy 116.84 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2137,7 +2232,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 45.72) (xy 198.12 50.8)
+			(xy 194.31 43.18) (xy 194.31 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2147,7 +2242,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 64.77) (xy 105.41 66.04)
+			(xy 101.6 62.23) (xy 101.6 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2157,7 +2252,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 64.77) (xy 95.25 66.04)
+			(xy 91.44 62.23) (xy 91.44 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2167,7 +2262,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 63.5) (xy 105.41 64.77)
+			(xy 101.6 60.96) (xy 101.6 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2177,7 +2272,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 113.03) (xy 177.8 113.03)
+			(xy 168.91 110.49) (xy 173.99 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2187,7 +2282,17 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 58.42) (xy 198.12 67.31)
+			(xy 179.07 64.77) (xy 194.31 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "775e3f92-ad8d-4150-b8e4-128152054524")
+	)
+	(wire
+		(pts
+			(xy 194.31 55.88) (xy 194.31 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2197,7 +2302,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 86.36) (xy 226.06 86.36)
+			(xy 210.82 83.82) (xy 222.25 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2207,7 +2312,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 113.03) (xy 172.72 116.84)
+			(xy 168.91 110.49) (xy 168.91 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2217,7 +2322,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 67.31) (xy 182.88 67.31)
+			(xy 156.21 64.77) (xy 179.07 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2227,7 +2332,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 63.5) (xy 95.25 64.77)
+			(xy 91.44 60.96) (xy 91.44 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2237,7 +2342,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 113.03) (xy 134.62 113.03)
+			(xy 113.03 110.49) (xy 130.81 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2247,7 +2352,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 45.72) (xy 198.12 45.72)
+			(xy 181.61 43.18) (xy 194.31 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2257,7 +2362,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 113.03) (xy 172.72 113.03)
+			(xy 138.43 110.49) (xy 168.91 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2267,7 +2372,27 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 64.77) (xy 137.16 64.77)
+			(xy 135.89 62.23) (xy 140.97 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6368535-c71a-4965-ab03-f61a40ee6233")
+	)
+	(wire
+		(pts
+			(xy 118.11 87.63) (xy 116.84 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9a6d102-28d5-43f0-8f9d-9f51dc38534f")
+	)
+	(wire
+		(pts
+			(xy 101.6 62.23) (xy 135.89 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2277,7 +2402,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 124.46) (xy 172.72 128.27)
+			(xy 168.91 121.92) (xy 168.91 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2287,7 +2412,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 64.77) (xy 85.09 68.58)
+			(xy 81.28 62.23) (xy 81.28 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2297,7 +2422,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 64.77) (xy 137.16 92.71)
+			(xy 135.89 62.23) (xy 135.89 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2307,17 +2432,17 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 67.31) (xy 198.12 67.31)
+			(xy 140.97 62.23) (xy 140.97 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d469e4f1-e393-4473-95ca-cbf59b7b097d")
+		(uuid "d314d76e-e8c4-4d6a-8c58-623ff2dc3f47")
 	)
 	(wire
 		(pts
-			(xy 214.63 86.36) (xy 214.63 74.93)
+			(xy 210.82 83.82) (xy 210.82 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2327,17 +2452,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 64.77) (xy 144.78 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbf15e6b-0161-4d91-bf05-163496690297")
-	)
-	(wire
-		(pts
-			(xy 130.81 92.71) (xy 137.16 92.71)
+			(xy 132.08 87.63) (xy 135.89 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2347,7 +2462,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 45.72) (xy 214.63 59.69)
+			(xy 210.82 43.18) (xy 210.82 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2357,7 +2472,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 67.31) (xy 182.88 107.95)
+			(xy 179.07 64.77) (xy 179.07 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2366,31 +2481,31 @@
 		(uuid "ed33f7aa-3665-416c-8268-3d5517d7e731")
 	)
 	(global_label "PWR_BUTTON_SENSE"
-		(shape output)
-		(at 95.25 90.17 0)
+		(shape input)
+		(at 114.3 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(color 0 0 255 1)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "45899998-8a31-4707-89bb-9f2c02cc9671")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.406 90.17 0)
+			(at 92.144 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "REG_VIN_SW"
 		(shape output)
-		(at 226.06 86.36 0)
+		(at 222.25 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2401,7 +2516,7 @@
 		)
 		(uuid "7eaaa090-ea2f-45fa-b20f-c0feecccc960")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 240.3542 86.36 0)
+			(at 236.5442 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2413,7 +2528,7 @@
 	)
 	(global_label "MCP_OUT"
 		(shape input)
-		(at 185.42 45.72 180)
+		(at 181.61 43.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2424,7 +2539,7 @@
 		)
 		(uuid "97ded3b3-5b87-490b-97c5-7607cccd8dae")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.8472 45.72 0)
+			(at 170.0372 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2436,7 +2551,7 @@
 	)
 	(global_label "MCU_PWR_LATCH"
 		(shape input)
-		(at 116.84 113.03 180)
+		(at 113.03 110.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2447,7 +2562,7 @@
 		)
 		(uuid "fa1766dc-c83e-480c-ae9a-3f472330950c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.1915 113.03 0)
+			(at 94.3815 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2459,7 +2574,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 172.72 128.27 0)
+		(at 168.91 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2468,7 +2583,7 @@
 		(fields_autoplaced yes)
 		(uuid "1e7b3c9e-4c0c-4275-9716-625877334427")
 		(property "Reference" "#PWR068"
-			(at 172.72 134.62 0)
+			(at 168.91 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2477,7 +2592,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 172.72 133.35 0)
+			(at 168.91 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2485,7 +2600,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 128.27 0)
+			(at 168.91 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2494,7 +2609,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 128.27 0)
+			(at 168.91 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2503,7 +2618,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 172.72 128.27 0)
+			(at 168.91 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2521,74 +2636,9 @@
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "BAT54:Diode-NC_pin")
-		(at 149.86 64.77 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "282196ac-bed5-4e51-aa0e-c9322333c7ff")
-		(property "Reference" "D2"
-			(at 149.9235 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAT54"
-			(at 149.9235 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 151.13 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://diotec.com/de/produktliste/D.html"
-			(at 149.86 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode with NC pin"
-			(at 149.86 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "e178e161-cd5c-4a8f-949a-382166d4fb30")
-		)
-		(pin "1"
-			(uuid "353e8597-f7b7-4725-92b6-5f0f6dd12dd4")
-		)
-		(pin "2"
-			(uuid "6a1f6d7b-6700-4d2d-8916-73f1a9d487cc")
-		)
-		(instances
-			(project "uq_phone"
-				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/38b2de56-100e-42d4-87e1-7dc9ff9ca6c8"
-					(reference "D2")
+			(project "soft_power_switch"
+				(path "/b158ef66-b62f-40c2-905d-91f68d4b257c"
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -2596,7 +2646,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 85.09 68.58 0)
+		(at 81.28 66.04 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2605,7 +2655,7 @@
 		(dnp no)
 		(uuid "2ee69416-4b24-4190-9662-f2a30553d0bd")
 		(property "Reference" "#PWR0219"
-			(at 85.09 74.93 0)
+			(at 81.28 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2614,7 +2664,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 85.09 73.152 0)
+			(at 81.28 70.612 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2622,7 +2672,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 68.58 0)
+			(at 81.28 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2631,7 +2681,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 68.58 0)
+			(at 81.28 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2640,7 +2690,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 85.09 68.58 0)
+			(at 81.28 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2658,36 +2708,62 @@
 					(unit 1)
 				)
 			)
+			(project "soft_power_switch"
+				(path "/b158ef66-b62f-40c2-905d-91f68d4b257c"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
-		(lib_id "BAT54:Diode-NC_pin")
-		(at 125.73 92.71 0)
+		(lib_id "BAT54LP-7:BAT54LP-7")
+		(at 134.62 87.63 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "397d3a6d-a246-4070-a8f1-f60998944bd5")
+		(uuid "554243a9-6017-40d3-acc7-fc6c6f982612")
 		(property "Reference" "D12"
-			(at 125.6665 83.82 0)
+			(at 124.46 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "BAT54"
-			(at 125.6665 86.36 0)
+		(property "Value" "BAT54LP-7"
+			(at 124.46 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 124.46 88.9 90)
+		(property "Footprint" "BAT54LP-7:DESD3V3S1BL7B"
+			(at 121.92 -6.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/BAT54LP.pdf"
+			(at 121.92 -106.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diodes Inc BAT54LP-7 SMT Schottky Diode, 30V 200mA, 2-Pin DFN"
+			(at 134.62 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2695,32 +2771,81 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://diotec.com/de/produktliste/D.html"
-			(at 125.73 97.79 0)
+		(property "Height" ""
+			(at 121.92 -306.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode with NC pin"
-			(at 125.73 92.71 0)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 121.92 -406.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "f34ea974-c77c-47db-bedc-b949adc7d5e1")
+		(property "Manufacturer_Part_Number" "BAT54LP-7"
+			(at 121.92 -506.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-BAT54LP-7"
+			(at 121.92 -606.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/BAT54LP-7?qs=rGAXPo9uwV29av2jO%2FVbTg%3D%3D"
+			(at 121.92 -706.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "BAT54LP-7"
+			(at 121.92 -806.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/bat54lp-7/diodes-incorporated?utm_currency=USD&region=nac"
+			(at 121.92 -906.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "0b50d576-7e14-4344-b5b5-84aec9341ce0")
+			(uuid "c7f042bc-c4c5-4b9e-82e3-8424c0dc7b59")
 		)
 		(pin "2"
-			(uuid "81717f3d-a509-44ea-abb1-6857ede1de10")
+			(uuid "382367f5-5c49-4d22-a878-9dd35f7c7d27")
 		)
 		(instances
 			(project "uq_phone"
@@ -2733,7 +2858,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 182.88 129.54 0)
+		(at 179.07 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2742,7 +2867,7 @@
 		(fields_autoplaced yes)
 		(uuid "5e10af42-052f-49cd-8b37-bc09aa27ab30")
 		(property "Reference" "#PWR063"
-			(at 182.88 135.89 0)
+			(at 179.07 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2751,7 +2876,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 182.88 134.62 0)
+			(at 179.07 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2759,7 +2884,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 129.54 0)
+			(at 179.07 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2768,7 +2893,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 129.54 0)
+			(at 179.07 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2777,7 +2902,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 182.88 129.54 0)
+			(at 179.07 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2795,11 +2920,17 @@
 					(unit 1)
 				)
 			)
+			(project "soft_power_switch"
+				(path "/b158ef66-b62f-40c2-905d-91f68d4b257c"
+					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "MMBT3904LP-7:MMBT3904LP-7")
-		(at 180.34 113.03 0)
+		(at 176.53 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2807,7 +2938,7 @@
 		(dnp no)
 		(uuid "672439a4-a5cf-442b-9523-cd35b04a7799")
 		(property "Reference" "Q5"
-			(at 185.42 112.776 0)
+			(at 181.61 110.236 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2816,7 +2947,7 @@
 			)
 		)
 		(property "Value" "MMBT3904LP-7"
-			(at 164.084 108.966 0)
+			(at 160.274 106.426 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2824,8 +2955,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MMBT3904LP-7:DFN101X61X53-3N"
-			(at 180.34 113.03 0)
+		(property "Footprint" "MMBT3904LP-7:MMBT3904LP7"
+			(at 176.53 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2835,7 +2966,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 113.03 0)
+			(at 176.53 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2844,7 +2975,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 180.34 113.03 0)
+			(at 176.53 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2853,7 +2984,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "MMBT3904LP-7DITR-ND"
-			(at 180.34 113.03 0)
+			(at 176.53 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2863,7 +2994,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MMBT3904LP-7/Diodes+Inc./view-part/?ref=snap"
-			(at 180.34 113.03 0)
+			(at 176.53 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2873,7 +3004,7 @@
 			)
 		)
 		(property "Description_1" "Bipolar (BJT) Transistor NPN 40 V 200 mA 300MHz 250 mW Surface Mount X1-DFN1006-3"
-			(at 180.34 113.03 0)
+			(at 176.53 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2883,7 +3014,7 @@
 			)
 		)
 		(property "Package" "DFN-3 Diodes Inc."
-			(at 180.34 113.03 0)
+			(at 176.53 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2893,7 +3024,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/MMBT3904LP-7/Diodes+Inc./view-part/?ref=eda"
-			(at 180.34 113.03 0)
+			(at 176.53 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2903,7 +3034,7 @@
 			)
 		)
 		(property "MF" "Diodes Inc."
-			(at 180.34 113.03 0)
+			(at 176.53 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2913,7 +3044,7 @@
 			)
 		)
 		(property "MP" "MMBT3904LP-7"
-			(at 180.34 113.03 0)
+			(at 176.53 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2923,7 +3054,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Diodes Incorporated"
-			(at 180.34 113.03 0)
+			(at 176.53 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2933,7 +3064,7 @@
 			)
 		)
 		(property "LCSC PN" "C460099"
-			(at 180.34 113.03 0)
+			(at 176.53 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2942,7 +3073,7 @@
 			)
 		)
 		(property "DESCRIPTION" ""
-			(at 180.34 113.03 0)
+			(at 176.53 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2951,7 +3082,7 @@
 			)
 		)
 		(property "LSCS PN" ""
-			(at 180.34 113.03 0)
+			(at 176.53 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2975,11 +3106,17 @@
 					(unit 1)
 				)
 			)
+			(project "soft_power_switch"
+				(path "/b158ef66-b62f-40c2-905d-91f68d4b257c"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Misc:SKSCLCE010")
-		(at 100.33 64.77 0)
+		(at 96.52 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2987,7 +3124,7 @@
 		(dnp no)
 		(uuid "8dd1cad0-4dff-40f1-9395-76346a24bd13")
 		(property "Reference" "SW42"
-			(at 100.838 60.452 0)
+			(at 97.028 57.912 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2995,7 +3132,7 @@
 			)
 		)
 		(property "Value" "SKSCLCE010"
-			(at 100.33 60.96 0)
+			(at 96.52 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3004,7 +3141,7 @@
 			)
 		)
 		(property "Footprint" "custom_footprints:SKSCLCE010"
-			(at 100.33 64.77 0)
+			(at 96.52 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3013,7 +3150,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 64.77 0)
+			(at 96.52 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3022,7 +3159,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 100.33 64.77 0)
+			(at 96.52 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3031,7 +3168,7 @@
 			)
 		)
 		(property "LCSC PN" "C139799"
-			(at 100.33 64.77 0)
+			(at 96.52 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3040,7 +3177,7 @@
 			)
 		)
 		(property "DESCRIPTION" ""
-			(at 100.33 64.77 0)
+			(at 96.52 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3049,7 +3186,7 @@
 			)
 		)
 		(property "LSCS PN" ""
-			(at 100.33 64.77 0)
+			(at 96.52 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3076,11 +3213,157 @@
 					(unit 1)
 				)
 			)
+			(project "soft_power_switch"
+				(path "/b158ef66-b62f-40c2-905d-91f68d4b257c"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BAT54LP-7:BAT54LP-7")
+		(at 138.43 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2d0f679-65b2-438a-a7e8-1cdd64d17b3d")
+		(property "Reference" "D2"
+			(at 148.59 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54LP-7"
+			(at 148.59 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BAT54LP-7:DESD3V3S1BL7B"
+			(at 151.13 158.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/BAT54LP.pdf"
+			(at 151.13 258.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diodes Inc BAT54LP-7 SMT Schottky Diode, 30V 200mA, 2-Pin DFN"
+			(at 138.43 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 151.13 458.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 151.13 558.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BAT54LP-7"
+			(at 151.13 658.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-BAT54LP-7"
+			(at 151.13 758.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/BAT54LP-7?qs=rGAXPo9uwV29av2jO%2FVbTg%3D%3D"
+			(at 151.13 858.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "BAT54LP-7"
+			(at 151.13 958.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/bat54lp-7/diodes-incorporated?utm_currency=USD&region=nac"
+			(at 151.13 1058.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4215d8a6-540f-442a-8681-b3882f314cc3")
+		)
+		(pin "2"
+			(uuid "5ffcc11e-9c55-4925-b260-d52ad0661408")
+		)
+		(instances
+			(project ""
+				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/38b2de56-100e-42d4-87e1-7dc9ff9ca6c8"
+					(reference "D2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "DMP2035U-7:DMP2035U-7")
-		(at 201.93 67.31 0)
+		(at 198.12 64.77 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3089,7 +3372,7 @@
 		(dnp no)
 		(uuid "ca298346-f737-4b65-b4cc-7b881c2b40d8")
 		(property "Reference" "Q4"
-			(at 201.422 71.374 0)
+			(at 197.612 68.834 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3098,7 +3381,7 @@
 			)
 		)
 		(property "Value" "DMP2035U-7"
-			(at 194.564 74.676 0)
+			(at 187.452 72.39 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3107,7 +3390,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 201.93 67.31 0)
+			(at 198.12 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3117,7 +3400,7 @@
 			)
 		)
 		(property "Datasheet" "DMP2035U-7"
-			(at 201.93 67.31 0)
+			(at 198.12 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3127,7 +3410,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 201.93 67.31 0)
+			(at 198.12 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3151,11 +3434,17 @@
 					(unit 1)
 				)
 			)
+			(project "soft_power_switch"
+				(path "/b158ef66-b62f-40c2-905d-91f68d4b257c"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Resistors:Resistor_47k")
-		(at 172.72 120.65 0)
+		(at 168.91 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3164,7 +3453,7 @@
 		(fields_autoplaced yes)
 		(uuid "e7f468cf-dac2-4ed9-8353-75037ac8c5a8")
 		(property "Reference" "R34"
-			(at 175.26 119.3799 0)
+			(at 171.45 116.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3173,7 +3462,7 @@
 			)
 		)
 		(property "Value" "47k"
-			(at 175.26 121.9199 0)
+			(at 171.45 119.3799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3182,7 +3471,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 172.72 124.46 0)
+			(at 168.91 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3191,7 +3480,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 124.46 0)
+			(at 168.91 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3200,7 +3489,7 @@
 			)
 		)
 		(property "Description" "50mW Thick Film Resistor 25V ±1% ±200ppm/℃ 47kΩ 0201 Chip Resistor - Surface Mount ROHS"
-			(at 172.72 124.46 0)
+			(at 168.91 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3209,7 +3498,7 @@
 			)
 		)
 		(property "LCSC PN" "C138139"
-			(at 172.72 120.65 0)
+			(at 168.91 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3218,7 +3507,7 @@
 			)
 		)
 		(property "DESCRIPTION" ""
-			(at 172.72 120.65 0)
+			(at 168.91 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3227,7 +3516,7 @@
 			)
 		)
 		(property "LSCS PN" ""
-			(at 172.72 120.65 0)
+			(at 168.91 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3248,11 +3537,17 @@
 					(unit 1)
 				)
 			)
+			(project "soft_power_switch"
+				(path "/b158ef66-b62f-40c2-905d-91f68d4b257c"
+					(reference "R2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Resistors:Resistor_100k")
-		(at 198.12 54.61 180)
+		(at 194.31 52.07 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3260,7 +3555,7 @@
 		(dnp no)
 		(uuid "fd446bca-0cb0-495f-b50e-f9a873ba1d78")
 		(property "Reference" "R30"
-			(at 195.326 54.356 90)
+			(at 191.516 51.816 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3268,7 +3563,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 200.914 54.356 90)
+			(at 197.104 51.816 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3276,7 +3571,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 198.12 50.8 0)
+			(at 194.31 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3285,7 +3580,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 50.8 0)
+			(at 194.31 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3294,7 +3589,7 @@
 			)
 		)
 		(property "Description" "50mW Thick Film Resistor 25V ±1% ±200ppm/℃ 100kΩ 0201 Chip Resistor - Surface Mount ROHS"
-			(at 198.12 50.8 0)
+			(at 194.31 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3303,7 +3598,7 @@
 			)
 		)
 		(property "LCSC PN" "C106224"
-			(at 198.12 54.61 0)
+			(at 194.31 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3324,11 +3619,17 @@
 					(unit 1)
 				)
 			)
+			(project "soft_power_switch"
+				(path "/b158ef66-b62f-40c2-905d-91f68d4b257c"
+					(reference "R3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Resistors:Resistor_4k7")
-		(at 138.43 113.03 90)
+		(at 134.62 110.49 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3336,7 +3637,7 @@
 		(dnp no)
 		(uuid "fdea75a5-4dee-483e-b58e-7679f3ba4fcd")
 		(property "Reference" "R31"
-			(at 134.874 115.57 90)
+			(at 131.064 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3344,7 +3645,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 141.224 115.57 90)
+			(at 137.414 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3352,7 +3653,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 142.24 113.03 0)
+			(at 138.43 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3361,7 +3662,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 113.03 0)
+			(at 138.43 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3370,7 +3671,7 @@
 			)
 		)
 		(property "Description" "50mW Thick Film Resistor 25V ±1% ±200ppm/℃ 4.7kΩ 0201 Chip Resistor - Surface Mount ROHS"
-			(at 142.24 113.03 0)
+			(at 138.43 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3379,7 +3680,7 @@
 			)
 		)
 		(property "LCSC PN" "C138135"
-			(at 138.43 113.03 0)
+			(at 134.62 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3388,7 +3689,7 @@
 			)
 		)
 		(property "DESCRIPTION" ""
-			(at 138.43 113.03 90)
+			(at 134.62 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3397,7 +3698,7 @@
 			)
 		)
 		(property "LSCS PN" ""
-			(at 138.43 113.03 90)
+			(at 134.62 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3418,6 +3719,18 @@
 					(unit 1)
 				)
 			)
+			(project "soft_power_switch"
+				(path "/b158ef66-b62f-40c2-905d-91f68d4b257c"
+					(reference "R1")
+					(unit 1)
+				)
+			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )

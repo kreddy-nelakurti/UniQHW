@@ -7824,8 +7824,8 @@
 		)
 	)
 	(rectangle
-		(start 420.37 133.858)
-		(end 492.76 140.97)
+		(start 391.16 133.858)
+		(end 463.55 140.97)
 		(stroke
 			(width 0)
 			(type default)
@@ -7850,7 +7850,7 @@
 	)
 	(text "uSD_SIM_CD from sim/sd card tray to detect insertion - pb11\n*100ms debounce delay*\nSD_PWR_EN control output to the load switch ON pin - pb10\n\n"
 		(exclude_from_sim no)
-		(at 453.39 138.43 0)
+		(at 424.18 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7884,7 +7884,7 @@
 	)
 	(text_box "PWR_BUTTON_SENSE is an MCU input signal that detects whether the power button is being pressed.\n\nThe MCU uses it to measure how long the button is held and can shut the system down after a 3-second press."
 		(exclude_from_sim no)
-		(at 422.91 144.78 0)
+		(at 393.7 144.78 0)
 		(size 55.88 16.51)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -7908,7 +7908,7 @@
 	)
 	(text_box " simple transistor shifters just for MOB_PWR and MOB_RST. Cheaper than a full chip, fine here since these are slow on/off signals, not fast data."
 		(exclude_from_sim no)
-		(at -30.48 236.22 0)
+		(at -29.21 236.22 0)
 		(size 55.88 8.89)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -7976,7 +7976,7 @@
 	)
 	(text_box "Purpose\n• Converts logic levels\n• Protects the MCU\n• Allows 3.3V and 1.8V devices to communicate"
 		(exclude_from_sim no)
-		(at -19.05 157.48 0)
+		(at -29.21 158.75 0)
 		(size 55.88 10.16)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -8000,7 +8000,7 @@
 	)
 	(text_box "Operation\n• Signals from either side are automatically translated.\n• Pull-up resistors define the logic HIGH voltage on each bus.\n• Supports two-way communication without MCU intervention."
 		(exclude_from_sim no)
-		(at 180.34 303.53 0)
+		(at 173.99 300.99 0)
 		(size 55.88 12.7)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -8024,7 +8024,7 @@
 	)
 	(text_box "a dedicated I2C-specific level shifter, not just a generic buffer. I2C needs this because it's open-drain and bidirectional (both sides can pull the line low), which a plain shifter like the TXU parts can't handle correctly."
 		(exclude_from_sim no)
-		(at 180.34 274.32 0)
+		(at 173.99 271.78 0)
 		(size 55.88 10.16)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -8048,7 +8048,7 @@
 	)
 	(text_box "Operation\n• The MCU drives MOB_PWR_CTL or MOB_RST_CTL HIGH.\n• The transistor turns on and pulls the modem control pin LOW.\n• This electronically simulates pressing the modem's Power or Reset button."
 		(exclude_from_sim no)
-		(at -30.48 265.43 0)
+		(at -29.21 265.43 0)
 		(size 55.88 12.7)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -8096,7 +8096,7 @@
 	)
 	(text_box "Purpose\n• Allows the MCU to control the modem's Power and Reset pins.\n• Provides an open-collector pull-down interface.\n• Matches the modem's required control signalling."
 		(exclude_from_sim no)
-		(at -30.48 248.92 0)
+		(at -29.21 248.92 0)
 		(size 55.88 13.97)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -8192,7 +8192,7 @@
 	)
 	(text_box "MCU_PWR_LATCH is a control signal from the MCU that turns on the small NPN transistor, which keeps the main PMOS switched on so power continues flowing to the regulator after you let go of the button; when the MCU drives this signal low, the transistor releases the PMOS gate and the whole system turns off."
 		(exclude_from_sim no)
-		(at 421.64 101.6 0)
+		(at 392.43 101.6 0)
 		(size 55.88 16.51)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -8216,7 +8216,7 @@
 	)
 	(text_box "Operation\n• The STM32 operates at 3.3V.\n• The RC7620 modem uses 1.8V logic.\n• Level translators safely convert signals between them."
 		(exclude_from_sim no)
-		(at -19.05 170.18 0)
+		(at -29.21 171.45 0)
 		(size 55.88 10.16)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -8240,7 +8240,7 @@
 	)
 	(text_box "Purpose\n• Translates I²C signals between 1.8V and 3.3V logic levels.\n• Allows the MCU and modem to communicate safely.\n• Maintains bidirectional I²C operation."
 		(exclude_from_sim no)
-		(at 180.34 287.02 0)
+		(at 173.99 284.48 0)
 		(size 55.88 13.97)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -8382,7 +8382,7 @@
 	)
 	(text_box "he MCU runs at 3.3V, the modem runs at 1.8V, so every signal crossing between them needs a translator. U17 handles UART, U18 handles modem status lines (RI/DSR/DCD/DTR), U19 handles audio sync/clock signals, U20 handles wake/safe-power-remove/headphone-detec."
 		(exclude_from_sim no)
-		(at -19.05 142.24 0)
+		(at -29.21 143.51 0)
 		(size 55.88 12.7)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -21838,7 +21838,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MMBT3904LP-7:DFN101X61X53-3N"
+		(property "Footprint" "MMBT3904LP-7:MMBT3904LP7"
 			(at 119.38 248.92 0)
 			(effects
 				(font

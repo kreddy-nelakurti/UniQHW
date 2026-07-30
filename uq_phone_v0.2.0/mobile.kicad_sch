@@ -12784,7 +12784,7 @@
 	)
 	(text_box "the cellular modem that provides LTE connectivity, voice calling, SMS, GNSS positioning and SIM card communication. The STM32 acts as the system controller, while the RC7620 handles all cellular networking and radio processing. Communication between the MCU and modem is primarily through UART (AT commands), I²S (digital audio), and dedicated GPIO control signals for power, reset and wake functions. The module is supplied directly from VBAT, requiring a large bank of decoupling capacitors to support the high peak currents drawn during cellular transmission."
 		(exclude_from_sim no)
-		(at 179.07 -19.05 0)
+		(at 175.26 -1.27 0)
 		(size 81.28 16.51)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke

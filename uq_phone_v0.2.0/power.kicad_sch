@@ -5622,7 +5622,7 @@
 	)
 	(text_box "USB-C Connector\n• External power input (VBUS)\n• USB 2.0 data interface\n• Supplies VUSB to battery manager\n• CC resistors configure USB2.0 device mode"
 		(exclude_from_sim no)
-		(at 90.17 16.51 0)
+		(at 95.25 16.51 0)
 		(size 55.88 11.43)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
