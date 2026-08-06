@@ -2645,6 +2645,107 @@
 		)
 	)
 	(symbol
+		(lib_id "Misc:SKSCLCE010")
+		(at 96.52 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2689c280-f923-4557-a70a-b66a238536ef")
+		(property "Reference" "SW22"
+			(at 97.028 57.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SKSCLCE010"
+			(at 96.52 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "custom_footprints:SKSCLCE010"
+			(at 96.52 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C139799"
+			(at 96.52 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 96.52 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 96.52 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "fc3a72ed-2580-4c7f-ae55-6a4a48febe21")
+		)
+		(pin "4"
+			(uuid "4104a2ff-203a-442d-bcbd-034b2bdfa425")
+		)
+		(pin "1"
+			(uuid "23f0d4fa-1dc9-4066-906d-2a81995978f8")
+		)
+		(pin "2"
+			(uuid "1da451ee-fff0-4386-94d3-79ea7288565e")
+		)
+		(instances
+			(project "uq_phone"
+				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/38b2de56-100e-42d4-87e1-7dc9ff9ca6c8"
+					(reference "SW22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 81.28 66.04 0)
 		(mirror y)
@@ -3109,113 +3210,6 @@
 			(project "soft_power_switch"
 				(path "/b158ef66-b62f-40c2-905d-91f68d4b257c"
 					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Misc:SKSCLCE010")
-		(at 96.52 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8dd1cad0-4dff-40f1-9395-76346a24bd13")
-		(property "Reference" "SW42"
-			(at 97.028 57.912 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SKSCLCE010"
-			(at 96.52 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "custom_footprints:SKSCLCE010"
-			(at 96.52 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 96.52 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC PN" "C139799"
-			(at 96.52 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" ""
-			(at 96.52 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS PN" ""
-			(at 96.52 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "a15e2b81-dc1e-4b8b-9ea3-5126a380bf11")
-		)
-		(pin "4"
-			(uuid "1941be94-ad63-437e-8a48-a5fd9de4dbab")
-		)
-		(pin "1"
-			(uuid "0b13df9f-c471-4713-be98-25cf5bf41dab")
-		)
-		(pin "2"
-			(uuid "ba000d13-8c58-4a30-ae57-718774709d93")
-		)
-		(instances
-			(project "uq_phone"
-				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/38b2de56-100e-42d4-87e1-7dc9ff9ca6c8"
-					(reference "SW42")
-					(unit 1)
-				)
-			)
-			(project "soft_power_switch"
-				(path "/b158ef66-b62f-40c2-905d-91f68d4b257c"
-					(reference "SW1")
 					(unit 1)
 				)
 			)

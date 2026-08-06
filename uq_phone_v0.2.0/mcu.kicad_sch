@@ -8887,12 +8887,12 @@
 		(uuid "bfe16cf9-099b-4948-b30b-53167755bd37")
 	)
 	(no_connect
-		(at 353.06 110.49)
-		(uuid "ced41835-d879-4cc2-9a7c-83a79c8b2daa")
-	)
-	(no_connect
 		(at 170.18 200.66)
 		(uuid "dd3eb052-74ef-4e19-a83e-db61f23e0aaf")
+	)
+	(no_connect
+		(at 353.06 115.57)
+		(uuid "df223a70-6101-4d93-bba2-c702ef80348a")
 	)
 	(no_connect
 		(at 292.1 118.11)
@@ -9305,6 +9305,16 @@
 			(type default)
 		)
 		(uuid "24803526-f6ba-4669-9619-ce56799a1129")
+	)
+	(wire
+		(pts
+			(xy 353.06 110.49) (xy 358.14 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24ac7b5f-3f86-435e-815e-1b10c2d42047")
 	)
 	(wire
 		(pts
@@ -11148,16 +11158,6 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 115.57) (xy 358.14 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b57597a3-3ee1-4b57-bf25-346abc2fb48d")
-	)
-	(wire
-		(pts
 			(xy 325.12 55.88) (xy 330.2 55.88)
 		)
 		(stroke
@@ -12320,6 +12320,29 @@
 		(uuid "0cb24798-3ff9-4db1-95d2-3bbbac963f26")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 373.2203 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU_PWR_LATCH"
+		(shape output)
+		(at 358.14 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 255 1)
+			)
+			(justify left)
+		)
+		(uuid "0f179279-5d20-434b-8499-765fe656d7e0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 376.7885 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14285,29 +14308,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MCU_PWR_LATCH"
-		(shape output)
-		(at 358.14 115.57 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 0 0 255 1)
-			)
-			(justify left)
-		)
-		(uuid "c0b6d97d-8426-43ac-9b40-818f024b77b4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 376.7885 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)

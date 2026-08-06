@@ -4899,10 +4899,10 @@
 		)
 		(uuid "50416eea-a1fa-4b89-96bd-83e08f0c6fff")
 	)
-	(text_box "FIRMWARE REQUIRED\n"
+	(text_box "FIRMWARE REQUIRED\nADD SWITCH FOOTPRINT\n"
 		(exclude_from_sim no)
 		(at 90.17 266.7 0)
-		(size 24.13 5.08)
+		(size 24.13 8.89)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0.635)
@@ -10360,7 +10360,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MMBT3904LP-7:DFN101X61X53-3N"
+		(property "Footprint" "MMBT3904LP-7:MMBT3904LP7"
 			(at 217.17 59.69 0)
 			(effects
 				(font
