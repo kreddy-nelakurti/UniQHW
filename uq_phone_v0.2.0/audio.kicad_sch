@@ -1050,6 +1050,119 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_01x01"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "ESD5451X-2/TR_1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1779,305 +1892,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Misc:PJ-605-6A"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PJ-605"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "custom_footprints:AUDIO-TH_PJ-605-6A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20191118/C145807_B506BAC928359D395FFC1CEA1A4C0BCC.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Connector Type:3.5mm耳机座 Current Rating (Max):500mA Voltage Rating (Max):30V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part" "PJ-605-6A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "韩国韩荣"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier Part" "C145807"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier" "LCSC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part Name" "3.5mm耳机座"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PJ-605-6A_1_0"
-				(rectangle
-					(start -7.366 -4.064)
-					(end -5.588 1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.35 5.08) (xy -6.35 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.35 5.08) (xy 1.27 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.35 -4.064) (xy -6.35 -7.62) (xy -6.35 -7.62) (xy 1.27 -7.62)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy -3.81 2.54) (xy -3.81 2.54) (xy -4.318 1.524) (xy -4.318 1.524) (xy -4.826 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -3.048 0) (xy -3.048 0) (xy -3.556 -1.016) (xy -3.556 -1.016) (xy -4.064 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy -2.032 -2.54) (xy -2.032 -2.54) (xy -2.54 -3.302) (xy -2.54 -3.302) (xy -2.794 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy -2.032 -5.08) (xy -2.032 -5.08) (xy -2.54 -4.318) (xy -2.54 -4.318) (xy -2.794 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at 6.35 5.08 180)
-					(length 5.08)
-					(name "5"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 6.35 2.54 180)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 6.35 0 180)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 6.35 -2.54 180)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 6.35 -5.08 180)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 6.35 -7.62 180)
-					(length 5.08)
-					(name "6"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4307,6 +4121,26 @@
 		)
 		(uuid "1ccb263b-c672-4912-a284-9b0f2249d4db")
 	)
+	(text "Breakout: J4 / Ring 2\n"
+		(exclude_from_sim no)
+		(at 39.116 136.144 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2292f548-1096-413d-949b-760235a13296")
+	)
+	(text "Breakout: J2 / Sleeve"
+		(exclude_from_sim no)
+		(at 38.862 133.858 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "27f4ad13-5b97-46ca-9e90-5b7a2a5b4d95")
+	)
 	(text "8Ω 0.25W\n<1W, Ensure low volume"
 		(exclude_from_sim no)
 		(at 74.676 65.024 0)
@@ -4336,6 +4170,46 @@
 			)
 		)
 		(uuid "3a0a61d1-02bd-45be-af2a-731dd7f38aa3")
+	)
+	(text "Breakout: J6 / Ring 1\n"
+		(exclude_from_sim no)
+		(at 39.37 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "51ed1db7-4b5c-46d6-a6ea-9ae993ce8a67")
+	)
+	(text "Breakout J3: Ring3\n"
+		(exclude_from_sim no)
+		(at 41.656 143.256 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9b9a707a-618b-41a2-8ad2-72b24840c939")
+	)
+	(text "EXPERIMENTAL CONTACT\n"
+		(exclude_from_sim no)
+		(at 68.072 148.336 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ba1d8891-825f-451b-97b0-01d406734564")
+	)
+	(text "Breakout: J5 / Tip"
+		(exclude_from_sim no)
+		(at 37.592 140.716 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fdfe1575-3330-4df3-81a4-5d54fc3a5d2d")
 	)
 	(text_box "Jack Detection"
 		(exclude_from_sim no)
@@ -4457,8 +4331,8 @@
 	)
 	(text_box "Headphone Jack"
 		(exclude_from_sim no)
-		(at 26.67 109.22 0)
-		(size 170.1799 92.7099)
+		(at 24.1301 107.9501 0)
+		(size 171.4499 92.7099)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -4547,7 +4421,7 @@
 	)
 	(text_box "he central audio processor of the phone, converting between digital audio and analogue audio. It receives digital audio from the MCU/modem over the I²S interface (AUD_SYNC, AUD_BCLK, AUD_IN, AUD_OUT) and converts it into analogue signals for the speaker and headphones. Conversely, it digitises microphone audio and sends it back over I²S. The numerous capacitors (C39-C46) provide local decoupling, bias filtering and analogue reference stability, while OSC1 supplies the master clock required for accurate audio sampling. The codec communicates with the MCU over I²C (AUD_SCL/AUD_SDA) for configuration, allowing software control of gain, routing, volume and audio modes."
 		(exclude_from_sim no)
-		(at 205.74 250.19 0)
+		(at 201.93 250.19 0)
 		(size 76.2 21.59)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -4738,12 +4612,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a1d7a790-9c7f-4e1a-b8db-5498afec3534")
-	)
-	(junction
-		(at 104.14 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b3c8d0fb-2969-407b-acbb-a3beb2aa9790")
 	)
 	(junction
 		(at 339.09 154.94)
@@ -5319,7 +5187,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 135.89) (xy 116.84 135.89)
+			(xy 78.74 135.89) (xy 116.84 135.89)
 		)
 		(stroke
 			(width 0)
@@ -5639,7 +5507,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 143.51) (xy 88.9 143.51)
+			(xy 78.74 143.51) (xy 88.9 143.51)
 		)
 		(stroke
 			(width 0)
@@ -5669,7 +5537,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 140.97) (xy 93.98 140.97)
+			(xy 78.74 140.97) (xy 93.98 140.97)
 		)
 		(stroke
 			(width 0)
@@ -5699,7 +5567,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 133.35) (xy 104.14 133.35)
+			(xy 78.74 133.35) (xy 104.14 133.35)
 		)
 		(stroke
 			(width 0)
@@ -5739,16 +5607,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 146.05) (xy 104.14 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a40f90e1-307a-4518-a81c-c7d3e9f5ee72")
-	)
-	(wire
-		(pts
 			(xy 280.67 67.31) (xy 280.67 66.04)
 		)
 		(stroke
@@ -5779,7 +5637,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 138.43) (xy 99.06 138.43)
+			(xy 78.74 138.43) (xy 99.06 138.43)
 		)
 		(stroke
 			(width 0)
@@ -5876,16 +5734,6 @@
 			(type default)
 		)
 		(uuid "bb7057c1-95f3-41af-abf9-59cfee08cc9c")
-	)
-	(wire
-		(pts
-			(xy 104.14 146.05) (xy 104.14 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc59713e-12e8-440a-8240-a6ee5f6e4fd1")
 	)
 	(wire
 		(pts
@@ -5999,7 +5847,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 133.35) (xy 104.14 146.05)
+			(xy 104.14 133.35) (xy 104.14 149.86)
 		)
 		(stroke
 			(width 0)
@@ -6206,6 +6054,71 @@
 			(type default)
 		)
 		(uuid "fe062bb2-83f9-414b-859d-fbf5c19b62af")
+	)
+	(image
+		(at 16.51 138.43)
+		(scale 0.876459)
+		(uuid "bbffc7ff-4912-44ee-adf8-871b8b5e0ff4")
+		(data "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"
+		)
 	)
 	(global_label "MIC_GND"
 		(shape input)
@@ -9231,6 +9144,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 73.66 143.51 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "58533128-2002-4cd4-a9c8-cc8a5bc5871b")
+		(property "Reference" "J17"
+			(at 57.404 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 66.294 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "headphone_board:Breakout_Mating_Pad"
+			(at 62.738 163.068 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 73.66 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ce63394-2097-49ad-ade4-1b2d7342e33f")
+		)
+		(instances
+			(project "uq_phone"
+				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/e19f4f8c-44cb-4a36-b4d3-60ff6ff42a2f"
+					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 280.67 67.31 0)
 		(unit 1)
@@ -9547,149 +9524,6 @@
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/e19f4f8c-44cb-4a36-b4d3-60ff6ff42a2f"
 					(reference "C44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Misc:PJ-605-6A")
-		(at 78.74 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "699b55c9-0abf-4cbb-969b-73833c046cef")
-		(property "Reference" "J1"
-			(at 75.692 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PJ-605-6A"
-			(at 75.692 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "custom_footprints:AUDIO-TH_PJ-605-6A"
-			(at 78.74 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20191118/C145807_B506BAC928359D395FFC1CEA1A4C0BCC.pdf"
-			(at 78.74 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Connector Type:3.5mm耳机座 Current Rating (Max):500mA Voltage Rating (Max):30V"
-			(at 78.74 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "PJ-605-6A"
-			(at 78.74 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "韩国韩荣"
-			(at 78.74 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C145807"
-			(at 78.74 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 78.74 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "3.5mm耳机座"
-			(at 78.74 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" ""
-			(at 78.74 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS PN" ""
-			(at 78.74 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "094424ca-6b9a-489b-b709-7cfe924c86c2")
-		)
-		(pin "5"
-			(uuid "abc0757c-08f1-4bed-a932-69d68089807a")
-		)
-		(pin "1"
-			(uuid "35983bb4-fb10-4bd6-9548-87f8e1b1fd8a")
-		)
-		(pin "2"
-			(uuid "899c36bf-9676-4f68-a199-d4cffd795d61")
-		)
-		(pin "4"
-			(uuid "9dc7b681-08ae-4d21-9ec6-d65685cc26ca")
-		)
-		(pin "6"
-			(uuid "028f44fb-cc3c-4895-a91e-5cfc3819023a")
-		)
-		(instances
-			(project ""
-				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/e19f4f8c-44cb-4a36-b4d3-60ff6ff42a2f"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -10437,6 +10271,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 73.66 140.97 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "96960265-0d67-44d5-8f97-8e252f51cf84")
+		(property "Reference" "J16"
+			(at 57.404 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 66.294 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "headphone_board:Breakout_Mating_Pad"
+			(at 62.738 160.528 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 73.66 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0197a285-a235-46ee-8f26-34a35d767c50")
+		)
+		(instances
+			(project "uq_phone"
+				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/e19f4f8c-44cb-4a36-b4d3-60ff6ff42a2f"
+					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Capacitors:Capacitor_1uF")
 		(at 143.51 138.43 270)
 		(unit 1)
@@ -11119,6 +11017,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 73.66 133.35 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b9216684-1946-4178-8fd7-a7c83484c1f4")
+		(property "Reference" "J13"
+			(at 57.404 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 66.294 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "headphone_board:Breakout_Mating_Pad"
+			(at 62.738 152.908 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 73.66 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3cdec9b0-da0a-4971-b7a7-a1da7cef1d6f")
+		)
+		(instances
+			(project "uq_phone"
+				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/e19f4f8c-44cb-4a36-b4d3-60ff6ff42a2f"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Capacitors:Capacitor_1uF")
 		(at 143.51 143.51 270)
 		(unit 1)
@@ -11731,6 +11693,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 73.66 135.89 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da66d1fa-c5e1-4a31-864a-68f7c29f1486")
+		(property "Reference" "J14"
+			(at 57.404 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 66.294 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "headphone_board:Breakout_Mating_Pad"
+			(at 62.738 155.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 73.66 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14a2f67e-c7ab-43de-be23-ebbae904c60d")
+		)
+		(instances
+			(project "uq_phone"
+				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/e19f4f8c-44cb-4a36-b4d3-60ff6ff42a2f"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Capacitors:Capacitor_4.7uF")
 		(at 339.09 158.75 0)
 		(unit 1)
@@ -11821,6 +11847,70 @@
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/e19f4f8c-44cb-4a36-b4d3-60ff6ff42a2f"
 					(reference "C42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 73.66 138.43 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "de60684f-35df-4a4b-83f2-ca779c04be5f")
+		(property "Reference" "J15"
+			(at 57.404 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 66.294 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "headphone_board:Breakout_Mating_Pad"
+			(at 62.738 157.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 73.66 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "269d06de-8112-46b3-808b-d352d53384a1")
+		)
+		(instances
+			(project "uq_phone"
+				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/e19f4f8c-44cb-4a36-b4d3-60ff6ff42a2f"
+					(reference "J15")
 					(unit 1)
 				)
 			)

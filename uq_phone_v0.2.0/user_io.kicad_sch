@@ -5939,7 +5939,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 59.69) (xy 114.3 59.69)
+			(xy 111.76 59.69) (xy 114.3 59.69)
 		)
 		(stroke
 			(width 0)
@@ -6864,7 +6864,7 @@
 	)
 	(global_label "SD_VDD_SW"
 		(shape input)
-		(at 109.22 59.69 180)
+		(at 111.76 59.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6875,7 +6875,7 @@
 		)
 		(uuid "05dc5e01-1f4b-45fd-a05a-cf3f52340748")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.5306 59.69 0)
+			(at 98.0706 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)

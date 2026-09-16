@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.85,
-          "height": 0.85,
-          "width": 0.85
+          "drill": 0.0,
+          "height": 0.6,
+          "width": 1.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -105,30 +105,6 @@
         ],
         [
           "copper_edge_clearance|43560000|121950000|c788ddc2-b2c6-4e14-b65a-f49a96a2ff8c|adb0723f-4d1e-49e6-ab85-c3df7ab0fbec",
-          ""
-        ],
-        [
-          "copper_edge_clearance|49050500|116720000|90dcaf4e-98c3-48b4-bc2f-41ee7b77fe70|6e792ba9-c341-4e98-a9f5-fb2ce0dd299c",
-          ""
-        ],
-        [
-          "copper_edge_clearance|49050500|121768000|90dcaf4e-98c3-48b4-bc2f-41ee7b77fe70|52980040-68cf-4d95-92ce-da8b36f2bcf3",
-          ""
-        ],
-        [
-          "copper_edge_clearance|49050500|124770500|90dcaf4e-98c3-48b4-bc2f-41ee7b77fe70|02645479-3c5c-47bc-b759-130f6c249629",
-          ""
-        ],
-        [
-          "copper_edge_clearance|57549500|116720000|142cf4a0-0241-4d88-8f93-251061d642bc|dd9f18ec-d2e5-41a5-bce9-f3783635ee1a",
-          ""
-        ],
-        [
-          "copper_edge_clearance|57549500|121869500|142cf4a0-0241-4d88-8f93-251061d642bc|32f8c5db-6cbc-4a7f-bbf6-b776e97ae48f",
-          ""
-        ],
-        [
-          "copper_edge_clearance|57549500|125370000|142cf4a0-0241-4d88-8f93-251061d642bc|e21bd5f1-01e0-46be-afde-5936aa3c2813",
           ""
         ],
         [
@@ -760,7 +736,7 @@
       "plot": "plots/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "uq_phone.step",
+      "step": "../../../Downloads/uq_phone.step",
       "svg": "",
       "vrml": ""
     },

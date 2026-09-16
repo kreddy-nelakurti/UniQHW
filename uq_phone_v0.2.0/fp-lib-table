@@ -56,4 +56,5 @@
   (lib (name "TXU0x04DTRR")(type "KiCad")(uri "${USR_SYMBOL_DIR}/TXU0x04DTRR")(options "")(descr ""))
   (lib (name "BAT54LP-7")(type "KiCad")(uri "C:/Users/karan/Downloads/LIB_BAT54LP-7/BAT54LP-7/KiCad/BAT54LP-7.pretty")(options "")(descr ""))
   (lib (name "MMBT3904LP-7")(type "KiCad")(uri "C:/Users/karan/Downloads/LIB_MMBT3904LP-7 (3)/MMBT3904LP-7/KiCad/MMBT3904LP-7.pretty")(options "")(descr ""))
+  (lib (name "headphone_board")(type "KiCad")(uri "${KIPRJMOD}/uq_phone_subboards/uq_phone_headphone/headphone_board.pretty")(options "")(descr ""))
 )
