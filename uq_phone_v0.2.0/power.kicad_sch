@@ -5111,6 +5111,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:VBUS"
 			(power)
 			(pin_numbers
@@ -6473,7 +6574,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 58.42) (xy 107.95 57.15)
+			(xy 114.3 58.42) (xy 114.3 57.15)
 		)
 		(stroke
 			(width 0)
@@ -6723,7 +6824,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 58.42) (xy 67.31 58.42)
+			(xy 58.42 58.42) (xy 67.31 58.42)
 		)
 		(stroke
 			(width 0)
@@ -7153,7 +7254,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 58.42) (xy 105.41 58.42)
+			(xy 114.3 58.42) (xy 105.41 58.42)
 		)
 		(stroke
 			(width 0)
@@ -7533,7 +7634,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 57.15) (xy 63.5 58.42)
+			(xy 58.42 57.15) (xy 58.42 58.42)
 		)
 		(stroke
 			(width 0)
@@ -8576,6 +8677,72 @@
 			(project ""
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/e697a7f0-03cd-4a38-a369-080a37468a6a"
 					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 67.31 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11b45fe3-6f34-4348-a1c4-e01d8910e0ba")
+		(property "Reference" "#FLG01"
+			(at 67.31 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 67.31 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 67.31 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bba42f25-927b-4d6a-bbda-154d768e25bd")
+		)
+		(instances
+			(project ""
+				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/e697a7f0-03cd-4a38-a369-080a37468a6a"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -13266,7 +13433,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 107.95 57.15 0)
+		(at 114.3 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13275,7 +13442,7 @@
 		(fields_autoplaced yes)
 		(uuid "b006c5da-3617-43df-bc8b-f09f5277ea36")
 		(property "Reference" "#PWR07"
-			(at 107.95 60.96 0)
+			(at 114.3 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13284,7 +13451,7 @@
 			)
 		)
 		(property "Value" "VUSB"
-			(at 107.95 52.07 0)
+			(at 114.3 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13292,7 +13459,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 57.15 0)
+			(at 114.3 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13301,7 +13468,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 57.15 0)
+			(at 114.3 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13310,7 +13477,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 107.95 57.15 0)
+			(at 114.3 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15100,7 +15267,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 63.5 57.15 0)
+		(at 58.42 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15109,7 +15276,7 @@
 		(fields_autoplaced yes)
 		(uuid "fa554c91-a807-4ec3-a1dd-eaabf2b74e87")
 		(property "Reference" "#PWR06"
-			(at 63.5 60.96 0)
+			(at 58.42 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15118,7 +15285,7 @@
 			)
 		)
 		(property "Value" "VUSB"
-			(at 63.5 52.07 0)
+			(at 58.42 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15126,7 +15293,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 57.15 0)
+			(at 58.42 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15135,7 +15302,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 57.15 0)
+			(at 58.42 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15144,7 +15311,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 63.5 57.15 0)
+			(at 58.42 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)

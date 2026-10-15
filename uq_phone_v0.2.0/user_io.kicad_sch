@@ -763,8 +763,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 25.4 10.16 0)
+			(property "Reference" "U11"
+				(at 18.415 7.62 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -772,7 +772,7 @@
 				)
 			)
 			(property "Value" "LSM6DSVTR"
-				(at 25.4 7.62 0)
+				(at 18.415 5.08 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -800,6 +800,24 @@
 				)
 			)
 			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DESCRIPTION" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LSCS PN" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -930,7 +948,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at 0 -12.7 0)
 					(length 7.62)
 					(name "GND"
@@ -941,24 +959,6 @@
 						)
 					)
 					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 0 -15.24 0)
-					(length 7.62)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1085,6 +1085,26 @@
 						)
 					)
 					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LSM6DSVTR_1_1"
+				(pin power_in line
+					(at 0 -15.24 0)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7223,6 +7243,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 83.82 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28d9411f-20c6-4ebb-a0a0-0c63ff23ffa3")
+		(property "Reference" "#PWR0238"
+			(at 83.82 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 83.82 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 83.82 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a7b3a4d-747f-404c-90ec-4a255307320d")
+		)
+		(instances
+			(project "uq_phone"
+				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/3e1644a6-29e0-4613-bdce-8513434c26aa"
+					(reference "#PWR0238")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 250.19 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8522,78 +8608,6 @@
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/3e1644a6-29e0-4613-bdce-8513434c26aa"
 					(reference "#PWR094")
-					(unit 1)
-				)
-			)
-			(project "user_io"
-				(path "/4c1ed5c6-5f05-4275-94f7-cfc9cbfc3f08"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 83.82 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7636831b-320c-46cf-99bc-cb6167886794")
-		(property "Reference" "#PWR091"
-			(at 83.82 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 83.82 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 83.82 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4956bf4a-4ec3-4576-ad12-96ed01264991")
-		)
-		(instances
-			(project "uq_phone"
-				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/3e1644a6-29e0-4613-bdce-8513434c26aa"
-					(reference "#PWR091")
 					(unit 1)
 				)
 			)
