@@ -4600,7 +4600,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c05c6f67-efdf-4c09-99ac-07282c8ee2d0")
-		(property "Reference" "J?"
+		(property "Reference" "J1"
 			(at 100.33 115.5699 0)
 			(effects
 				(font
@@ -4880,7 +4880,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/ddca85db-d991-4949-b302-e774c1be11a1"
-					(reference "J?")
+					(reference "J1")
 					(unit 1)
 				)
 			)
