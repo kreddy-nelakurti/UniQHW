@@ -60,5 +60,4 @@
   (lib (name "BAT54")(type "KiCad")(uri "C:/Users/karan/OneDrive/Desktop/University/YEAR 4/Thesis/Components/BAT54/diode-nc_pin.kicad_sym")(options "")(descr ""))
   (lib (name "DMP2035U-7")(type "KiCad")(uri "C:/Users/karan/OneDrive/Desktop/University/YEAR 4/Thesis/Components/DMP2035U-7/2026-07-15_04-53-52.kicad_sym")(options "")(descr ""))
   (lib (name "BAT54LP-7")(type "KiCad")(uri "C:/Users/karan/Downloads/LIB_BAT54LP-7/BAT54LP-7/KiCad/BAT54LP-7.kicad_sym")(options "")(descr ""))
-  (lib (name "STM32H723ZGI6 UFBGA144")(type "KiCad")(uri "C:/Users/karan/Downloads/ul_STM32H723ZGI6/KiCADv6/2026-10-15_01-46-31.kicad_sym")(options "")(descr ""))
 )
