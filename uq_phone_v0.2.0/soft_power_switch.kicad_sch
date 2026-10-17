@@ -2627,18 +2627,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "08deacb6-6cf5-4bb4-852d-f11c75bcde56")
+			(uuid "16d503d2-dc1b-4345-bee9-26aeeca70331")
 		)
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/38b2de56-100e-42d4-87e1-7dc9ff9ca6c8"
 					(reference "#PWR068")
-					(unit 1)
-				)
-			)
-			(project "soft_power_switch"
-				(path "/b158ef66-b62f-40c2-905d-91f68d4b257c"
-					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -2725,16 +2719,16 @@
 			)
 		)
 		(pin "3"
-			(uuid "fc3a72ed-2580-4c7f-ae55-6a4a48febe21")
+			(uuid "9905f59a-f156-4e5f-a234-adc838185f21")
 		)
 		(pin "4"
-			(uuid "4104a2ff-203a-442d-bcbd-034b2bdfa425")
+			(uuid "be400f03-9f4f-4aca-9b02-71e7e5357007")
 		)
 		(pin "1"
-			(uuid "23f0d4fa-1dc9-4066-906d-2a81995978f8")
+			(uuid "159ac033-713b-4bcc-9539-c4a3ea4781f2")
 		)
 		(pin "2"
-			(uuid "1da451ee-fff0-4386-94d3-79ea7288565e")
+			(uuid "4af60a94-bb73-4894-84a7-01b90045e4f6")
 		)
 		(instances
 			(project "uq_phone"
@@ -2800,18 +2794,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "d29b1fd8-572c-46b3-9591-1e0aedf8b3b2")
+			(uuid "b7ac47ff-25ea-4628-a518-8287c9069012")
 		)
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/38b2de56-100e-42d4-87e1-7dc9ff9ca6c8"
 					(reference "#PWR0219")
-					(unit 1)
-				)
-			)
-			(project "soft_power_switch"
-				(path "/b158ef66-b62f-40c2-905d-91f68d4b257c"
-					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -2943,10 +2931,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c7f042bc-c4c5-4b9e-82e3-8424c0dc7b59")
+			(uuid "98b92cf5-5d58-4db7-9cf5-1a923b63a44a")
 		)
 		(pin "2"
-			(uuid "382367f5-5c49-4d22-a878-9dd35f7c7d27")
+			(uuid "fc969f80-8714-4b21-91ff-e278bafed1f8")
 		)
 		(instances
 			(project "uq_phone"
@@ -3012,18 +3000,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "7fa759a5-c87c-42db-8f97-3117e0e224dd")
+			(uuid "e5704292-ed4c-461d-912c-6b2b57de2ab7")
 		)
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/38b2de56-100e-42d4-87e1-7dc9ff9ca6c8"
 					(reference "#PWR063")
-					(unit 1)
-				)
-			)
-			(project "soft_power_switch"
-				(path "/b158ef66-b62f-40c2-905d-91f68d4b257c"
-					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -3192,24 +3174,18 @@
 			)
 		)
 		(pin "3"
-			(uuid "53ddc9c5-e2cd-48df-9a63-c033f2415773")
+			(uuid "f483ff99-9594-472a-aaa7-ac2f401d794e")
 		)
 		(pin "1"
-			(uuid "76d01a50-cd16-4ce7-afa1-7f2a14fb33eb")
+			(uuid "fcbb7990-692e-4cb1-9764-ceec303eb17c")
 		)
 		(pin "2"
-			(uuid "35505d5d-b11f-4fbc-be32-80443af95e94")
+			(uuid "6b3ce353-86fb-4594-ab3a-93ef75b9546e")
 		)
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/38b2de56-100e-42d4-87e1-7dc9ff9ca6c8"
 					(reference "Q5")
-					(unit 1)
-				)
-			)
-			(project "soft_power_switch"
-				(path "/b158ef66-b62f-40c2-905d-91f68d4b257c"
-					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -3225,7 +3201,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2d0f679-65b2-438a-a7e8-1cdd64d17b3d")
-		(property "Reference" "D2"
+		(property "Reference" "D14"
 			(at 148.59 57.15 0)
 			(effects
 				(font
@@ -3341,15 +3317,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "4215d8a6-540f-442a-8681-b3882f314cc3")
+			(uuid "3337b234-53fd-45cf-a54c-7aa2b6733045")
 		)
 		(pin "2"
-			(uuid "5ffcc11e-9c55-4925-b260-d52ad0661408")
+			(uuid "f29c24cd-ad65-4a3c-a295-1afa81692352")
 		)
 		(instances
 			(project ""
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/38b2de56-100e-42d4-87e1-7dc9ff9ca6c8"
-					(reference "D2")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -3413,24 +3389,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "ca89de15-b14d-4995-94c7-f17b9e68593c")
+			(uuid "76fe1669-b46c-4ea9-8f69-1f32e3cde4d5")
 		)
 		(pin "1"
-			(uuid "4853e2b8-264e-4f11-aa0e-cd229aef67fb")
+			(uuid "0efb9472-4e32-498c-8206-9bffa60b9801")
 		)
 		(pin "3"
-			(uuid "66b1128e-88d6-4a88-b344-63d41328baca")
+			(uuid "5ce2e92f-3d10-40c3-925f-1dd7ccdb20b1")
 		)
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/38b2de56-100e-42d4-87e1-7dc9ff9ca6c8"
 					(reference "Q4")
-					(unit 1)
-				)
-			)
-			(project "soft_power_switch"
-				(path "/b158ef66-b62f-40c2-905d-91f68d4b257c"
-					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -3519,21 +3489,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "e5ea1c33-39b0-4c98-b9f8-e5e0beaf28df")
+			(uuid "2b9b136a-809e-4832-a565-1d8795abecdf")
 		)
 		(pin "1"
-			(uuid "a1273c2d-6dbb-4853-bd96-31734b1664f6")
+			(uuid "2106e379-42fa-4efe-b835-8e59bfc25580")
 		)
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/38b2de56-100e-42d4-87e1-7dc9ff9ca6c8"
 					(reference "R34")
-					(unit 1)
-				)
-			)
-			(project "soft_power_switch"
-				(path "/b158ef66-b62f-40c2-905d-91f68d4b257c"
-					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -3601,21 +3565,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "eef89d80-0e30-4add-9437-a8be5347f8ec")
+			(uuid "b6bde7bc-5685-4484-a401-ada88bc6ed71")
 		)
 		(pin "2"
-			(uuid "91121276-d88d-4df9-a324-c6440ec2c14f")
+			(uuid "954f05ae-de9c-44fa-94f8-2092d04c4ec5")
 		)
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/38b2de56-100e-42d4-87e1-7dc9ff9ca6c8"
 					(reference "R30")
-					(unit 1)
-				)
-			)
-			(project "soft_power_switch"
-				(path "/b158ef66-b62f-40c2-905d-91f68d4b257c"
-					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -3701,21 +3659,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "4e5c216e-f431-433e-95a6-d583aa52f134")
+			(uuid "8aa72146-29a8-474e-a2dd-e95fb0fac4b2")
 		)
 		(pin "1"
-			(uuid "380db03f-6dd2-4893-93f2-513d4624df3d")
+			(uuid "ed07d85a-f11d-4f38-bfe9-6e446eee67ba")
 		)
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/38b2de56-100e-42d4-87e1-7dc9ff9ca6c8"
 					(reference "R31")
-					(unit 1)
-				)
-			)
-			(project "soft_power_switch"
-				(path "/b158ef66-b62f-40c2-905d-91f68d4b257c"
-					(reference "R1")
 					(unit 1)
 				)
 			)

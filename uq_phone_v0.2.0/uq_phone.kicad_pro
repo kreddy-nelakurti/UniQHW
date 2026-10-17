@@ -1357,6 +1357,14 @@
     [
       "38b2de56-100e-42d4-87e1-7dc9ff9ca6c8",
       "Soft Power Switch"
+    ],
+    [
+      "626748c8-7389-49eb-8e46-a60885fec889",
+      "Display"
+    ],
+    [
+      "985c15f8-cac6-4380-93d0-ffb72c6c171a",
+      "Expander"
     ]
   ],
   "text_variables": {}
