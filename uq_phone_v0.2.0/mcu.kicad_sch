@@ -7824,8 +7824,8 @@
 		)
 	)
 	(rectangle
-		(start 391.16 133.858)
-		(end 463.55 140.97)
+		(start 392.43 133.858)
+		(end 464.82 140.97)
 		(stroke
 			(width 0)
 			(type default)
@@ -7976,7 +7976,7 @@
 	)
 	(text_box "Purpose\n• Converts logic levels\n• Protects the MCU\n• Allows 3.3V and 1.8V devices to communicate"
 		(exclude_from_sim no)
-		(at -29.21 158.75 0)
+		(at -15.24 165.1 0)
 		(size 55.88 10.16)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -8216,7 +8216,7 @@
 	)
 	(text_box "Operation\n• The STM32 operates at 3.3V.\n• The RC7620 modem uses 1.8V logic.\n• Level translators safely convert signals between them."
 		(exclude_from_sim no)
-		(at -29.21 171.45 0)
+		(at -15.24 177.8 0)
 		(size 55.88 10.16)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -8382,7 +8382,7 @@
 	)
 	(text_box "he MCU runs at 3.3V, the modem runs at 1.8V, so every signal crossing between them needs a translator. U17 handles UART, U18 handles modem status lines (RI/DSR/DCD/DTR), U19 handles audio sync/clock signals, U20 handles wake/safe-power-remove/headphone-detec."
 		(exclude_from_sim no)
-		(at -29.21 143.51 0)
+		(at -15.24 149.86 0)
 		(size 55.88 12.7)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
