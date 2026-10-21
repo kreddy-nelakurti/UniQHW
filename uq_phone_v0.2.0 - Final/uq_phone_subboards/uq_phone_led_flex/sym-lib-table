@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Misc")(type "KiCad")(uri "${USR_SYMBOL_DIR}/Misc.kicad_sym")(options "")(descr ""))
+)

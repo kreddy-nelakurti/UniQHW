@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "resistors")(type "KiCad")(uri "${USR_SYMBOL_DIR}/Resistors/resistors.kicad_sym")(options "")(descr ""))
+  (lib (name "RC7620_1104625")(type "KiCad")(uri "${USR_SYMBOL_DIR}/RC7620_1104625/RC7620_1104625.kicad_sym")(options "")(descr ""))
+  (lib (name "capacitors")(type "KiCad")(uri "${USR_SYMBOL_DIR}/Capacitors/capacitors.kicad_sym")(options "")(descr ""))
+)
